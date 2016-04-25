@@ -1,7 +1,0 @@
-C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\TestProject1\bin\Debug\TestProject1.dll
-C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\TestProject1\bin\Debug\TestProject1.pdb
-C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\TestProject1\bin\Debug\PlansAndDreams.Core.dll
-C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\TestProject1\bin\Debug\PlansAndDreams.Core.pdb
-C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\TestProject1\obj\Debug\PlansAndDreams.Tests.csprojResolveAssemblyReference.cache
-C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\TestProject1\obj\Debug\TestProject1.dll
-C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\TestProject1\obj\Debug\TestProject1.pdb
