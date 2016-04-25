@@ -1,0 +1,5 @@
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\PlansAndDreams.Tests.dll
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\PlansAndDreams.Tests.pdb
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\obj\Release\PlansAndDreams.Tests.csprojResolveAssemblyReference.cache
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\obj\Release\PlansAndDreams.Tests.dll
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\obj\Release\PlansAndDreams.Tests.pdb

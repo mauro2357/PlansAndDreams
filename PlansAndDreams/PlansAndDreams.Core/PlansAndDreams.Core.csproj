@@ -44,7 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="basics.msbuild" />
+    <None Include="basics.msbuild">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="EjemploMsBuildJenkins.txt" />
