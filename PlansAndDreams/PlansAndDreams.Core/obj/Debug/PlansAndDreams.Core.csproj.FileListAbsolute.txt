@@ -1,0 +1,4 @@
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.pdb
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.dll
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.pdb
