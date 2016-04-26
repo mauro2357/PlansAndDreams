@@ -6,6 +6,7 @@ using TechTalk.SpecFlow;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
 {
@@ -34,6 +35,7 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
         {
             driver.Close();
             Console.WriteLine("Cierra el browser");
+            Assert.Fail("Fallo");
         }
     }
 }

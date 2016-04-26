@@ -36,7 +36,7 @@
     <MakeDir Directories="TestResults" />
 
     <Exec Command="$(MsTestCommand)"
-          ContinueOnError="true" />
+          ContinueOnError="false" />
     </Target>
 
 	<Target Name="RunCIBuild">
