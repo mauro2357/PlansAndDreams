@@ -4,3 +4,8 @@ C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifact
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\obj\Release\PlansAndDreams.Tests.csprojResolveAssemblyReference.cache
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\obj\Release\PlansAndDreams.Tests.dll
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\obj\Release\PlansAndDreams.Tests.pdb
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\exc\chromedriver.exe
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\libs\Selenium.WebDriverBackedSelenium.dll
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\libs\ThoughtWorks.Selenium.Core.dll
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\libs\WebDriver.dll
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\libs\WebDriver.Support.dll

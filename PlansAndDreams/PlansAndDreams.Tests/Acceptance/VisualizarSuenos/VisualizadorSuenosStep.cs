@@ -3,28 +3,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using TechTalk.SpecFlow;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 
 namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
 {
     [Binding]
     public class VisualizadorSuenosStep
     {
+        IWebDriver driver = new ChromeDriver(@"C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\exc"); //<-Add your path
+
         [Given(@"Yo ingreso a la pantalla de sueños")]
         public void GivenYoIngresoALaPantallaDeSuenos()
-        {
+        {            
+            driver.Navigate().GoToUrl("http://www.google.com");
             Console.WriteLine("GivenYoIngresoALaPantallaDeSuenos");
         }
 
         [When(@"Yo selecciono como sueño una casa en rionegro")]
         public void WhenYoSeleccionoComoSuenoUnaCasaEnRionegro()
         {
-            Console.WriteLine("WhenYoSeleccionoComoSuenoUnaCasaEnRionegro");
+            IWebElement myField = driver.FindElement(By.Id("lst-ib"));
+            myField.SendKeys("Quiero una casa en rionegro");
         }
 
         [Then(@"Deberia aparecer en pantalla (.*)")]
         public void ThenDeberiaAparecerEnPantalla(int p0)
         {
-            Console.WriteLine("ThenDeberiaAparecerEnPantalla");
+            driver.Close();
         }
     }
 }
