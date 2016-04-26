@@ -54,12 +54,12 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acceptance\Sueno.feature.cs">
+    <Compile Include="Acceptance\VisualizarSuenos\VisualizadorSuenosStep.cs" />
+    <Compile Include="Acceptance\VisualizarSuenos\VisualizarSuenos.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Sueno.feature</DependentUpon>
+      <DependentUpon>VisualizarSuenos.feature</DependentUpon>
     </Compile>
-    <Compile Include="Acceptance\SuenoStepDefinition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Unit\SuenoTest.cs" />
   </ItemGroup>
@@ -70,9 +70,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Acceptance\Sueno.feature">
+    <None Include="Acceptance\VisualizarSuenos\VisualizarSuenos.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>Sueno.feature.cs</LastGenOutput>
+      <LastGenOutput>VisualizarSuenos.feature.cs</LastGenOutput>
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />

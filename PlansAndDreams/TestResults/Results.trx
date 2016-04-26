@@ -1,21 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="8b135241-c447-4554-8557-a6590c229b2d" name="Juan_Giraldo@PRIJUANMG 2016-04-26 07:04:42" runUser="SATRACK\Juan_Giraldo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestSettings name="Configuración de pruebas predeterminada" id="a504e325-34bc-424d-9e06-08abca4df46f">
-    <Deployment userDeploymentRoot="C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="Juan_Giraldo_PRIJUANMG 2016-04-26 07_04_42" />
+<TestRun id="f565491f-059a-42ef-b5fb-52f44941bcf5" name="Juan_Giraldo@PRIJUANMG 2016-04-26 09:51:12" runUser="SATRACK\Juan_Giraldo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Configuración de pruebas predeterminada" id="784a75e7-33ab-418f-989b-232cc4bbc068">
+    <Deployment userDeploymentRoot="C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="Juan_Giraldo_PRIJUANMG 2016-04-26 09_51_12" />
     <Execution>
       <TestTypeSpecific />
       <AgentRule name="Execution Agents">
       </AgentRule>
     </Execution>
   </TestSettings>
-  <Times creation="2016-04-26T07:04:42.6288995-05:00" queuing="2016-04-26T07:04:43.5749536-05:00" start="2016-04-26T07:04:43.6019551-05:00" finish="2016-04-26T07:04:43.9029723-05:00" />
+  <Times creation="2016-04-26T09:51:12.6661369-05:00" queuing="2016-04-26T09:51:13.3801767-05:00" start="2016-04-26T09:51:13.4211790-05:00" finish="2016-04-26T09:51:13.9672099-05:00" />
   <ResultSummary outcome="Completed">
-    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
   </ResultSummary>
   <TestDefinitions>
     <UnitTest name="agregarTest" storage="buildartifacts\plansanddreams.tests.dll" id="718aa991-0bd0-3c45-4719-33074431c9c9">
-      <Execution id="1eb98526-3aef-455a-a55a-87bbcf666aac" />
+      <Execution id="02c8e282-e727-4b77-bd03-51bd57d599a3" />
       <TestMethod codeBase="C:/Users/juan_giraldo/Desktop/Codigo/PlansAndDreams/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.SuenoTest, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="agregarTest" />
+    </UnitTest>
+    <UnitTest name="SuenoConComprarUnaCasa" storage="buildartifacts\plansanddreams.tests.dll" id="97f429a3-6622-009a-2058-287bee6a9987">
+      <Description>Sueño con comprar una casa</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+      </TestCategory>
+      <Execution id="03edd9b7-f7c6-4ca0-bec5-c71790ae5ac5" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>VisualizarSuenos</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/juan_giraldo/Desktop/Codigo/PlansAndDreams/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.Acceptance.VisualizarSuenos.VisualizarSuenosFeature, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuenoConComprarUnaCasa" />
     </UnitTest>
   </TestDefinitions>
   <TestLists>
@@ -23,10 +37,24 @@
     <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <TestEntries>
-    <TestEntry testId="718aa991-0bd0-3c45-4719-33074431c9c9" executionId="1eb98526-3aef-455a-a55a-87bbcf666aac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97f429a3-6622-009a-2058-287bee6a9987" executionId="03edd9b7-f7c6-4ca0-bec5-c71790ae5ac5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="718aa991-0bd0-3c45-4719-33074431c9c9" executionId="02c8e282-e727-4b77-bd03-51bd57d599a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <Results>
-    <UnitTestResult executionId="1eb98526-3aef-455a-a55a-87bbcf666aac" testId="718aa991-0bd0-3c45-4719-33074431c9c9" testName="agregarTest" computerName="PRIJUANMG" duration="00:00:00.0121987" startTime="2016-04-26T07:04:43.6219563-05:00" endTime="2016-04-26T07:04:43.8829712-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1eb98526-3aef-455a-a55a-87bbcf666aac">
+    <UnitTestResult executionId="03edd9b7-f7c6-4ca0-bec5-c71790ae5ac5" testId="97f429a3-6622-009a-2058-287bee6a9987" testName="SuenoConComprarUnaCasa" computerName="PRIJUANMG" duration="00:00:00.0532943" startTime="2016-04-26T09:51:13.4271794-05:00" endTime="2016-04-26T09:51:13.8917056-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03edd9b7-f7c6-4ca0-bec5-c71790ae5ac5">
+      <Output>
+        <StdOut>Given Yo ingreso a la pantalla de sueños
+GivenYoIngresoALaPantallaDeSuenos
+-&gt; done: VisualizadorSuenosStep.GivenYoIngresoALaPantallaDeSuenos() (0,0s)
+When Yo selecciono como sueño una casa en rionegro
+WhenYoSeleccionoComoSuenoUnaCasaEnRionegro
+-&gt; done: VisualizadorSuenosStep.WhenYoSeleccionoComoSuenoUnaCasaEnRionegro() (0,0s)
+Then Deberia aparecer en pantalla 120000000
+ThenDeberiaAparecerEnPantalla
+-&gt; done: VisualizadorSuenosStep.ThenDeberiaAparecerEnPantalla(120000000) (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="02c8e282-e727-4b77-bd03-51bd57d599a3" testId="718aa991-0bd0-3c45-4719-33074431c9c9" testName="agregarTest" computerName="PRIJUANMG" duration="00:00:00.0480201" startTime="2016-04-26T09:51:13.8957059-05:00" endTime="2016-04-26T09:51:13.9467088-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02c8e282-e727-4b77-bd03-51bd57d599a3">
       <Output>
         <StdOut>Sueño Agregado Exitosamente</StdOut>
       </Output>

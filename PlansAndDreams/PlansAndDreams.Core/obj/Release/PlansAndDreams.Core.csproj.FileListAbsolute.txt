@@ -1,0 +1,6 @@
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\PlansAndDreams.Core.dll
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\PlansAndDreams.Core.pdb
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Release\PlansAndDreams.Core.csprojResolveAssemblyReference.cache
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Release\PlansAndDreams.Core.dll
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Release\PlansAndDreams.Core.pdb
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\PlansAndDreams.Core.dll.config
