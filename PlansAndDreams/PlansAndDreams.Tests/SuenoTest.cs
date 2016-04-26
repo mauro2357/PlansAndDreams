@@ -72,7 +72,7 @@ namespace PlansAndDreams.Tests
         {
             Sueno target = new Sueno(); // TODO: Inicializar en un valor adecuado
             target.agregar();
-            Assert.Inconclusive("Un método que no devuelve ningún valor no se puede comprobar.");
+            //Assert.Inconclusive("Un método que no devuelve ningún valor no se puede comprobar.");
         }
     }
 }

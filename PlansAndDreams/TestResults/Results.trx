@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e1f48ddd-3612-4afc-b93f-6904a696fae0" name="Juan_Giraldo@PRIJUANMG 2016-04-26 06:24:35" runUser="SATRACK\Juan_Giraldo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Configuración de pruebas predeterminada" id="067d1cad-a7a0-485b-aa80-8a9260e7086e">
+    <Deployment userDeploymentRoot="C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="Juan_Giraldo_PRIJUANMG 2016-04-26 06_24_35" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-04-26T06:24:35.4152147-05:00" queuing="2016-04-26T06:24:35.7202322-05:00" start="2016-04-26T06:24:35.7502339-05:00" finish="2016-04-26T06:24:36.0072486-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="agregarTest" storage="buildartifacts\plansanddreams.tests.dll" id="718aa991-0bd0-3c45-4719-33074431c9c9">
+      <Execution id="748bbe8a-d43e-480d-aede-55218bdcc50a" />
+      <TestMethod codeBase="C:/Users/juan_giraldo/Desktop/Codigo/PlansAndDreams/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.SuenoTest, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="agregarTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="718aa991-0bd0-3c45-4719-33074431c9c9" executionId="748bbe8a-d43e-480d-aede-55218bdcc50a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="748bbe8a-d43e-480d-aede-55218bdcc50a" testId="718aa991-0bd0-3c45-4719-33074431c9c9" testName="agregarTest" computerName="PRIJUANMG" duration="00:00:00.0111666" startTime="2016-04-26T06:24:35.7562342-05:00" endTime="2016-04-26T06:24:35.9922477-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="748bbe8a-d43e-480d-aede-55218bdcc50a">
+      <Output>
+        <StdOut>Sueño Agregado Exitosamente</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -4,11 +4,13 @@
   <ItemGroup>
     <BuildArtifactsDir Include="BuildArtifacts\" />
     <SolutionFile Include="PlansAndDreams.sln" />
+    <MsTestResultPath Include="TestResults\Results.trx"/>
   </ItemGroup>
 
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Configuration>Release</Configuration>
     <BuildPlatform Condition=" '$(BuildPlatform)' == '' ">Any CPU</BuildPlatform>
+	  <MsTestExePath>C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\mstest.exe</MsTestExePath>
   </PropertyGroup>
 
   <Target Name="Init" DependsOnTargets="Clean">
@@ -23,5 +25,23 @@
     <MSBuild Projects="@(SolutionFile)" Targets="Rebuild"
              Properties="OutDir=%(BuildArtifactsDir.FullPath);Configuration=$(Configuration);Platform=$(BuildPlatform)" />
   </Target>
+
+  <Target Name="AfterBuild">
+    <PropertyGroup>
+      <MsTestCommand>"$(MsTestExePath)" /testcontainer:@(BuildArtifactsDir)PlansAndDreams.Tests.dll /resultsfile:@(MsTestResultPath)"</MsTestCommand>
+    </PropertyGroup>
+
+    <RemoveDir Directories="TestResults"
+               Condition="Exists('TestResults')" />
+    <MakeDir Directories="TestResults" />
+
+    <Exec Command="$(MsTestCommand)"
+          ContinueOnError="true" />
+    </Target>
+
+	<Target Name="RunCIBuild">
+        <CallTarget Targets="Compile"/>
+        <CallTarget Targets="AfterBuild"/>
+    </Target>
 
 </Project>
