@@ -1,7 +1,9 @@
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\obj\Debug\PlansAndDreams.Tests.csprojResolveAssemblyReference.cache
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\PlansAndDreams.Tests.dll.config
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\PlansAndDreams.Tests.dll
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\PlansAndDreams.Tests.pdb
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\PlansAndDreams.Core.dll
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\PlansAndDreams.Core.pdb
-C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\obj\Debug\PlansAndDreams.Tests.csprojResolveAssemblyReference.cache
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\obj\Debug\PlansAndDreams.Tests.dll
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\obj\Debug\PlansAndDreams.Tests.pdb
+C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\TechTalk.SpecFlow.dll

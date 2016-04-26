@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c1c7a42d-a75e-4675-a729-136f83f214b7" name="Juan_Giraldo@PRIJUANMG 2016-04-26 08:38:22" runUser="SATRACK\Juan_Giraldo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="dcb44387-2bc9-419f-b5e1-397ed42a52b2">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Juan_Giraldo_PRIJUANMG 2016-04-26 08_38_22">
+      <DeploymentItem filename="C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-04-26T08:38:22.2023207-05:00" queuing="2016-04-26T08:38:22.8153557-05:00" start="2016-04-26T08:38:22.8553580-05:00" finish="2016-04-26T08:38:23.3053838-05:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddTwoNumbers" storage="c:\users\juan_giraldo\desktop\codigo\plansanddreams\plansanddreams\plansanddreams.tests\bin\debug\plansanddreams.tests.dll" id="c9392f9e-cab5-9bd7-f8cd-b413d18adfd5">
+      <Description>Add two numbers</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+      </TestCategory>
+      <Execution id="2e362f6f-47f4-46d5-bec8-d8ebe15fe21c" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Sueno</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/juan_giraldo/Desktop/Codigo/PlansAndDreams/PlansAndDreams/PlansAndDreams.Tests/bin/Debug/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.Acceptance.SuenoFeature, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTwoNumbers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c9392f9e-cab5-9bd7-f8cd-b413d18adfd5" executionId="2e362f6f-47f4-46d5-bec8-d8ebe15fe21c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2e362f6f-47f4-46d5-bec8-d8ebe15fe21c" testId="c9392f9e-cab5-9bd7-f8cd-b413d18adfd5" testName="AddTwoNumbers" computerName="PRIJUANMG" duration="00:00:00.0550826" startTime="2016-04-26T08:38:22.8643585-05:00" endTime="2016-04-26T08:38:23.2693817-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e362f6f-47f4-46d5-bec8-d8ebe15fe21c">
+      <Output>
+        <StdOut>Given I have entered 50 into the calculator
+-&gt; pending: SuenoStepDefinition.GivenIHaveEnteredSomethingIntoTheCalculator(50)
+And I have entered 70 into the calculator
+-&gt; skipped because of previous errors
+When I press add
+-&gt; skipped because of previous errors
+Then the result should be 120 on the screen
+-&gt; skipped because of previous errors</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. One or more step definitions are not implemented yet.
+  SuenoStepDefinition.GivenIHaveEnteredSomethingIntoTheCalculator(50)</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en PlansAndDreams.Tests.Acceptance.SuenoFeature.ScenarioCleanup() en C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\Acceptance\Sueno.feature.cs:línea 0
+   en PlansAndDreams.Tests.Acceptance.SuenoFeature.AddTwoNumbers() en c:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\Acceptance\Sueno.feature:línea 11
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
