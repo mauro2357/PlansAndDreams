@@ -18,7 +18,7 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
         public void GivenYoIngresoALaPantallaDeSuenos()
         {            
             driver.Navigate().GoToUrl("http://www.google.com");
-            Console.WriteLine("GivenYoIngresoALaPantallaDeSuenos");
+            Console.WriteLine("Abre el navegador");
         }
 
         [When(@"Yo selecciono como sueño una casa en rionegro")]
@@ -26,12 +26,14 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
         {
             IWebElement myField = driver.FindElement(By.Id("lst-ib"));
             myField.SendKeys("Quiero una casa en rionegro");
+            Console.WriteLine("Ingresa que quiere buscar.");
         }
 
         [Then(@"Deberia aparecer en pantalla (.*)")]
         public void ThenDeberiaAparecerEnPantalla(int p0)
         {
             driver.Close();
+            Console.WriteLine("Cierra el browser");
         }
     }
 }
