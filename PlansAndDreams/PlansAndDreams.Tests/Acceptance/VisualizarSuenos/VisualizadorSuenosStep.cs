@@ -35,7 +35,6 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
         {
             driver.Close();
             Console.WriteLine("Cierra el browser");
-            Assert.Fail("Fallo");
         }
     }
 }
