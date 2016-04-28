@@ -14,10 +14,8 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
     [Binding]
     public class VisualizadorSuenosStep
     {
-
-
-
-        IWebDriver driver = new ChromeDriver(@"C:\exc"); /*andres error*/
+        
+        IWebDriver driver = new ChromeDriver(@"C:\exc"); /*andres el mejor*/
 
         [Given(@"Yo ingreso a la pantalla de sueños")]
         public void GivenYoIngresoALaPantallaDeSuenos()
