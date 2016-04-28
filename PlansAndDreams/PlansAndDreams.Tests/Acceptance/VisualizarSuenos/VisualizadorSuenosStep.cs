@@ -7,17 +7,21 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.IO;
 
 namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
 {
     [Binding]
     public class VisualizadorSuenosStep
     {
-        IWebDriver driver = new ChromeDriver(@"C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\exc"); //<-Add your path
+
+
+
+        IWebDriver driver = new ChromeDriver(@"C:\exc"); //<-Add your path
 
         [Given(@"Yo ingreso a la pantalla de sueños")]
         public void GivenYoIngresoALaPantallaDeSuenos()
-        {            
+        {
             driver.Navigate().GoToUrl("http://www.google.com");
             Console.WriteLine("Abre el navegador");
         }
