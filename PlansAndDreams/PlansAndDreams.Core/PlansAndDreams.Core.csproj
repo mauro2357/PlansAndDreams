@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="domain\CategoriaSueno.cs" />
     <Compile Include="domain\Sueno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
