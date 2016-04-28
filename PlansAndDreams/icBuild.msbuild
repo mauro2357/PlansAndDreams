@@ -10,7 +10,7 @@
   <PropertyGroup>
     <Configuration>Release</Configuration>
     <BuildPlatform Condition=" '$(BuildPlatform)' == '' ">Any CPU</BuildPlatform>
-	  <MsTestExePath>C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\mstest.exe</MsTestExePath>
+	  <MsTestExePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\mstest.exe</MsTestExePath>
   </PropertyGroup>
 
   <Target Name="Init" DependsOnTargets="Clean">
