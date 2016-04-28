@@ -9,3 +9,14 @@ C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifact
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\libs\ThoughtWorks.Selenium.Core.dll
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\libs\WebDriver.dll
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\BuildArtifacts\libs\WebDriver.Support.dll
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\BuildArtifacts\exc\chromedriver.exe
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\BuildArtifacts\libs\Selenium.WebDriverBackedSelenium.dll
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\BuildArtifacts\libs\ThoughtWorks.Selenium.Core.dll
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\BuildArtifacts\libs\WebDriver.dll
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\BuildArtifacts\libs\WebDriver.Support.dll
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\BuildArtifacts\PlansAndDreams.Tests.dll.config
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\BuildArtifacts\PlansAndDreams.Tests.dll
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\BuildArtifacts\PlansAndDreams.Tests.pdb
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\obj\Release\PlansAndDreams.Tests.csprojResolveAssemblyReference.cache
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\obj\Release\PlansAndDreams.Tests.dll
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\obj\Release\PlansAndDreams.Tests.pdb
