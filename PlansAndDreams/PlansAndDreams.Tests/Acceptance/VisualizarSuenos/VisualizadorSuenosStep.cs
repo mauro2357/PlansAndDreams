@@ -21,6 +21,7 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
         public void GivenYoIngresoALaPantallaDeSuenos()
         {
             xxx;
+            yyy;
             driver.Navigate().GoToUrl("http://www.google.com");
             Console.WriteLine("Abre el navegador");
         }
