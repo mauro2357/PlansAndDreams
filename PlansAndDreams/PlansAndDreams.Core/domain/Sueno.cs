@@ -5,9 +5,11 @@ using System.Text;
 
 namespace PlansAndDreams.Core.domain
 {
-    class Sueno
+    public class Sueno
     {
+        public string nombre { get; set; }
 
+        public DateTime fechaDeseada { get; set; }
         public void agregar()
         {
             Console.Out.WriteLine("Sueño Agregado Exitosamente");
