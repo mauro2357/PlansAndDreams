@@ -98,8 +98,7 @@ namespace PlansAndDreams.Tests
             _categoriaS.IdCategoria = 12;
             _categoriaS.NombreCategoria = "Viajes";
 
-            Sueno _sueno = new Sueno();
-            _sueno.nombre = "Viaje a Europa";
+            Sueno _sueno = new Sueno("Viaje a Europa", new DateTime(2016,12,1));
             _sueno.Categoria = _categoriaS;
 
             _jose.agregarSueno(_sueno);
