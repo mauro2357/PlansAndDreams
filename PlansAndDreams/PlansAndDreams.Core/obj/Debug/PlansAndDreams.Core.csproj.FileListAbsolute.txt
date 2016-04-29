@@ -9,3 +9,9 @@ D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\bin\Debug
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.pdb
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.csprojResolveAssemblyReference.cache
+C:\Users\andres_nieto\Source\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll.config
+C:\Users\andres_nieto\Source\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll
+C:\Users\andres_nieto\Source\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.pdb
+C:\Users\andres_nieto\Source\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.csprojResolveAssemblyReference.cache
+C:\Users\andres_nieto\Source\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.dll
+C:\Users\andres_nieto\Source\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.pdb
