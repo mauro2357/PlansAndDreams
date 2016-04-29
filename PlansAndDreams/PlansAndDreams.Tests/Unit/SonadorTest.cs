@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PlansAndDreams.Core.domain;
+using PlansAndDreams.Tests.MockRepositories;
 
 namespace PlansAndDreams.Tests.Unit
 {
@@ -10,7 +11,7 @@ namespace PlansAndDreams.Tests.Unit
         [TestMethod]
         public void CrearSonadorTest()
         {
-            Sonador sonador = new Sonador();
+            Sonador sonador = new Sonador(new SonadorMockRepository());
             sonador.Documento = "34001733";
             sonador.Nombre = "Mario";
             sonador.Apellido = "Nieto";
