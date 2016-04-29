@@ -25,5 +25,22 @@ namespace PlansAndDreams.Core.domain
         {
             Amigos.Add(amigo);
         }
+
+        public CatalogoProductos verProductos()
+        {
+            CatalogoProductos catalogoProductos = new CatalogoProductos();
+            catalogoProductos.Productos = new List<Producto>();
+            List<CategoriaSueno> categoriasDelSueno = null;//Categorias de los sueños que tiene Jose
+
+            foreach (var categoria in categoriasDelSueno)
+            {
+                Producto _PlanEspecial = new Producto();
+               
+                //consultar la lista de productos correspondientes a la categoria
+
+                catalogoProductos.Productos.Add(_PlanEspecial);
+            }
+            return catalogoProductos;
+        }
     }
 }

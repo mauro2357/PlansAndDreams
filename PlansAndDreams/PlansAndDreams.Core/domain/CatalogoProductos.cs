@@ -15,13 +15,23 @@ namespace PlansAndDreams.Core.domain
             set { nombre = value; }
         }
 
-        private Producto producto;
+        private List<Producto> producto;
 
-        public Producto Producto
+        public List<Producto>  Productos
         {
             get { return producto; }
             set { producto = value; }
         }
+
+        private Sonador sonador;
+
+        public Sonador Sonador
+        {
+            get { return sonador; }
+            set { sonador = value; }
+        }
+
+
 
 
     }
