@@ -7,8 +7,8 @@ using System.Text;
 
 namespace PlansAndDreams.Tests.Unit
 {
-       
-    class ProductoTest
+    [TestClass()]
+    public class ProductoTest
     {
         [TestMethod()]
         public void ComprarProducto()
