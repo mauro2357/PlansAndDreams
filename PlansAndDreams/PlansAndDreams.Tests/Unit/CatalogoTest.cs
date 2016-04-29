@@ -7,11 +7,12 @@ using System.Text;
 
 namespace PlansAndDreams.Tests.Unit
 {
+    [TestClass()]
     public class CatalogoTest
     {
         [TestMethod]
 
-        public void ObtenerCatalogoquecumplconelsueño() {
+        public void ObtenerCatalogodeSuenos() {
 
             //Arrande
             Sonador _jose = new Sonador();
@@ -27,10 +28,9 @@ namespace PlansAndDreams.Tests.Unit
 
             //Act
             CatalogoProductos catalogoProductos=_jose.verProductos();
-
-
+             
             //Assert
-            //Assert.AreEqual
+            Assert.AreEqual(3, catalogoProductos.Productos.Count());
 
         }
         

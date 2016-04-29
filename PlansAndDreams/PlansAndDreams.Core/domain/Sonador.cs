@@ -22,9 +22,15 @@ namespace PlansAndDreams.Core.domain
 
         public List<Sonador> Amigos { get; set; }
 
+        internal bool CrearSonador(Sonador sonador)
+        {
+            return true;
+        }
+
         public List<Sueno> Suenos { get; set; }
 
-        public void agregarSueno(Sueno sueno) {
+        public void agregarSueno(Sueno sueno)
+        {
             Suenos.Add(sueno);
         }
         public void agregarAmigos(Sonador amigo)
@@ -36,21 +42,53 @@ namespace PlansAndDreams.Core.domain
         {
             CatalogoProductos catalogoProductos = new CatalogoProductos();
             catalogoProductos.Productos = new List<Producto>();
-            List<CategoriaSueno> categoriasDelSueno = null;//Categorias de los sueños que tiene Jose
+            List<Producto> lstProductosEncontrados = new List<Producto>();
+          
+            //Se simula el origen de datos
+            var dataProductos = new List<Producto>();
+            dataProductos.Add(new Producto { Nombre= "Viaje especial", Categoria = new CategoriaSueno { NombreCategoria = "Viajes" } });
+            dataProductos.Add(new Producto { Nombre = "Viaje Quince", Categoria = new CategoriaSueno { NombreCategoria = "Viajes" } });
+            dataProductos.Add(new Producto { Categoria = new CategoriaSueno { NombreCategoria = "Viajes" } });
+            dataProductos.Add(new Producto { Categoria = new CategoriaSueno { NombreCategoria = "Pensión" } });
+            dataProductos.Add(new Producto { Categoria = new CategoriaSueno { NombreCategoria = "Vivienda" } });
+            ////////////
 
+
+            List<CategoriaSueno> categoriasDelSueno = new List<CategoriaSueno>();//Categorias de los sueños que tiene Jose
+            //Se agrupan las categorias de los sueños para que no esten repetidas
+            foreach (var sueno in this.Suenos)
+            {
+                if (categoriasDelSueno.Where(x=> x.NombreCategoria==sueno.Categoria.NombreCategoria).Count()==0)
+                {
+                    categoriasDelSueno.Add(sueno.Categoria);
+                } 
+            }
+
+           
+            //se recorren las categorias y se buscan que productos tienen esa categoria
             foreach (var categoria in categoriasDelSueno)
             {
-                Producto _PlanEspecial = new Producto();
-               
-                //consultar la lista de productos correspondientes a la categoria
-
-                catalogoProductos.Productos.Add(_PlanEspecial);
+                foreach (var productoEncontrado in dataProductos.Where(x=> x.Categoria.NombreCategoria== categoria.NombreCategoria))
+                {
+                    lstProductosEncontrados.Add(productoEncontrado);
+                }
             }
+
+
+            catalogoProductos.Productos = lstProductosEncontrados;
             return catalogoProductos;
         }
         public List<Sueno> obtenerSuenosAmigo(Sonador sonador)
         {
             List<Sueno> suenos = sonador.Suenos;
+            return suenos;
+        }
+
+        public List<Sueno> ObtenerSuenosFecha(DateTime fecha, Sonador sonador)
+        {
+
+            List<Sueno> suenos = sonador.Suenos.Where(x => x.fechaDeseada == fecha).ToList();
+         
             return suenos;
         }
     }

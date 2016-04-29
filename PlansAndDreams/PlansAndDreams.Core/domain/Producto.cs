@@ -24,7 +24,20 @@ namespace PlansAndDreams.Core.domain
             set { categoria = value; }
         }
 
+        private double valor;
 
+        public double Valor
+        {
+            get { return valor; }
+            set { valor = value; }
+        }
+
+
+        public bool ComprarProducto()
+        {
+            return true;
+        }
 
     }
 }
+
