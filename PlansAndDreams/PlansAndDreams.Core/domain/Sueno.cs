@@ -15,7 +15,7 @@ namespace PlansAndDreams.Core.domain
             Console.Out.WriteLine("Sueño Agregado Exitosamente");
             
         }
-
         public CategoriaSueno Categoria { get; set; }
+
     }
 }
