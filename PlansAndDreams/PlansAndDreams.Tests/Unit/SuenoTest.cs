@@ -1,6 +1,7 @@
 ﻿using PlansAndDreams.Core.domain;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
 
 namespace PlansAndDreams.Tests
 {
@@ -64,15 +65,52 @@ namespace PlansAndDreams.Tests
         #endregion
 
 
+        
+         
+        [TestMethod()]
+        public void crearSuenoTest()
+        {
+            Sueno sueno = new Sueno("bicileta", new DateTime(2016, 12, 25, 0, 0, 0));
+
+            Assert.IsTrue(sueno.guardarSueno());
+             
+        }
+
+
         /// <summary>
-        ///Una prueba de agregar
+        ///Una prueba de listar sueños
         ///</summary>
         [TestMethod()]
-        public void agregarTest()
+        public void ListarSuenos()
         {
-            Sueno target = new Sueno(); // TODO: Inicializar en un valor adecuado
-            target.agregar();
-            //Assert.Inconclusive("Un método que no devuelve ningún valor no se puede comprobar.");
+
+            Sonador _jose = new Sonador();
+            _jose.Nombre = "Jose";
+            _jose.Apellido = "Galarga";
+            _jose.Documento = "545636";
+
+            Sonador _erika = new Sonador();
+            _erika.Nombre = "Erike";
+            _erika.Apellido = "Correa";
+            _erika.Documento = "454655";
+
+            CategoriaSueno _categoriaS = new CategoriaSueno();
+            _categoriaS.IdCategoria = 12;
+            _categoriaS.NombreCategoria = "Viajes";
+
+            Sueno _sueno = new Sueno("Viaje a Europa", new DateTime(2016,12,1));
+            _sueno.Categoria = _categoriaS;
+
+            _jose.agregarSueno(_sueno);
+            _erika.agregarAmigos(_jose);
+
+
+            List<Sueno> lstSuenos = _erika.obtenerSuenosAmigo(_jose);
+
+            Assert.IsNotNull(lstSuenos);
+
+
+
         }
     }
 }

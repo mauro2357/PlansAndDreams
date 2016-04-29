@@ -17,6 +17,7 @@ namespace PlansAndDreams.Core.domain.Tests
             CategoriaSueno target = new CategoriaSueno();
             var expected = true;
             target.NombreCategoria = "Viaje";
+            target.Porcentaje = 10;
 
             //Action
             Boolean actual = target.AgregarCategoria();
