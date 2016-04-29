@@ -85,6 +85,8 @@
     <Compile Include="Unit\CatalogoTest.cs" />
     <Compile Include="Unit\EstimulanteSuenoTest.cs" />
     <Compile Include="Unit\ProductoTest.cs" />
+    <Compile Include="MockRepositories\SuenosConsolaMockRepository.cs" />
+    <Compile Include="MockRepositories\SuenosMockRepository.cs" />
     <Compile Include="Unit\SuenoTest.cs" />
     <Compile Include="Unit\SonadorTest.cs" />
   </ItemGroup>

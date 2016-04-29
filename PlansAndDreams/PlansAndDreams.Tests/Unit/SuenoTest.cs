@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
+using PlansAndDreams.Tests.MockRepositories;
 
 namespace PlansAndDreams.Tests
 {
@@ -142,6 +143,19 @@ namespace PlansAndDreams.Tests
             List<Sueno> lstSuenosFecha = _erika.ObtenerSuenosFecha(new DateTime(2016, 12, 1), _jose);
 
             Assert.IsNotNull(lstSuenosFecha);
+        }
+
+        /// <summary>
+        ///Una prueba de agregar
+        ///</summary>
+        [TestMethod()]
+        public void agregarTest()
+        {
+            Sueno target = new Sueno(); // TODO: Inicializar en un valor adecuado
+            target.suenoRepository = new SuenosConsolaMockRepository();
+            bool resultado = target.agregar();
+            Assert.IsTrue(resultado);
+            //Assert.Inconclusive("Un método que no devuelve ningún valor no se puede comprobar.");
         }
     }
 }

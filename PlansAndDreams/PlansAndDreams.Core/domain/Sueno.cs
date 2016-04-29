@@ -7,6 +7,8 @@ namespace PlansAndDreams.Core.domain
 {
     public class Sueno
     {
+        public ISuenoRepository suenoRepository;
+
         public string nombre { get; set; }
 
         public DateTime fechaDeseada { get; set; }
@@ -16,10 +18,14 @@ namespace PlansAndDreams.Core.domain
             this.nombre = nombre;
             this.fechaDeseada = fechaDeseada;
         }
-        public void agregar()
+
+        public Sueno()
         {
-            Console.Out.WriteLine("Sueño Agregado Exitosamente");
-            
+        }
+
+        public bool agregar()
+        {          
+            return suenoRepository.agregarSueno(this);
         }
         public CategoriaSueno Categoria { get; set; }
 
