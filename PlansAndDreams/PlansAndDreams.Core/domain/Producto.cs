@@ -33,5 +33,11 @@ namespace PlansAndDreams.Core.domain
         }
 
 
+        public bool ComprarProducto()
+        {
+            return true;
+        }
+
     }
 }
+
