@@ -5,7 +5,24 @@ using System.Text;
 
 namespace PlansAndDreams.Core.domain
 {
-    class CatalogoProductos
+    public class CatalogoProductos
     {
+        private string nombre;
+
+        public string Nombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+
+        private Producto producto;
+
+        public Producto Producto
+        {
+            get { return producto; }
+            set { producto = value; }
+        }
+
+
     }
 }
