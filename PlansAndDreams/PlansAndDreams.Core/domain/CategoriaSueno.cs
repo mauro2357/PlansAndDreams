@@ -15,6 +15,14 @@ namespace PlansAndDreams.Core.domain
             set { _NombreCategoria = value; }
         }
 
+        private int _IdCategoria;
+
+        public int IdCategoria
+        {
+            get { return _IdCategoria; }
+            set { _IdCategoria = value; }
+        }
+
 
     }
 }
