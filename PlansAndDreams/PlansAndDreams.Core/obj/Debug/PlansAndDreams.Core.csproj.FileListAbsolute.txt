@@ -6,6 +6,6 @@ C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDream
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll.config
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.pdb
-D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.csprojResolveAssemblyReference.cache
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.pdb
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.csprojResolveAssemblyReference.cache
