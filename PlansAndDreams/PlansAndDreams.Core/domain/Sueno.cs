@@ -10,10 +10,22 @@ namespace PlansAndDreams.Core.domain
         public string nombre { get; set; }
 
         public DateTime fechaDeseada { get; set; }
+
+        public Sueno(string nombre, DateTime fechaDeseada)
+        {
+            this.nombre = nombre;
+            this.fechaDeseada = fechaDeseada;
+        }
         public void agregar()
         {
             Console.Out.WriteLine("Sueño Agregado Exitosamente");
             
+        }
+        public CategoriaSueno Categoria { get; set; }
+
+        public bool guardarSueno()
+        {
+            return true;
         }
     }
 }
