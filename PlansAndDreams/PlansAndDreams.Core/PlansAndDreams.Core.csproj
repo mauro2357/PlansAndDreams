@@ -44,6 +44,7 @@
     <Compile Include="domain\CategoriaSueno.cs" />
     <Compile Include="domain\Estimulante.cs" />
     <Compile Include="domain\Producto.cs" />
+    <Compile Include="domain\Sonador.cs" />
     <Compile Include="domain\Sueno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

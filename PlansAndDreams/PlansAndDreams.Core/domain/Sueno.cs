@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PlansAndDreams.Core.domain
 {
-    class Sueno
+    public class Sueno
     {
 
         public void agregar()
