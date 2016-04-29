@@ -17,7 +17,7 @@ namespace PlansAndDreams.Tests.Unit
             Sonador _jose = new Sonador();
             var _lstSuenos = new List<Sueno>();
             _jose.Nombre = "Jose";
-            Sueno _viajeAEuropa = new Sueno();
+            Sueno _viajeAEuropa = new Sueno("", DateTime.Now);
             _viajeAEuropa.nombre="Viajar a europa";
             CategoriaSueno _viajes = new CategoriaSueno();
             _viajes.NombreCategoria="Viajes";
