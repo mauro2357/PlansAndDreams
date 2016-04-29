@@ -7,9 +7,10 @@ namespace PlansAndDreams.Core.domain
 {
     public class Sonador
     {
-
-        public Sonador()
+        private ISonadorRepository _iSonadorRepository;
+        public Sonador(ISonadorRepository _iSonadorRepository)
         {
+            this._iSonadorRepository = _iSonadorRepository;
             this.Suenos = new List<Sueno>();
             this.Amigos = new List<Sonador>();
         }
@@ -24,7 +25,7 @@ namespace PlansAndDreams.Core.domain
 
         internal bool CrearSonador(Sonador sonador)
         {
-            return true;
+            return _iSonadorRepository.CrearSonador(sonador);
         }
 
         public List<Sueno> Suenos { get; set; }

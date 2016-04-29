@@ -80,6 +80,7 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Include="MockRepositories\SonadorMockRepository.cs" />
     <Compile Include="Unit\CategoriaSuenoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Unit\CatalogoTest.cs" />

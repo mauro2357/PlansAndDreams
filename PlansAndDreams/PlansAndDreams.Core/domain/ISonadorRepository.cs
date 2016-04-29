@@ -5,8 +5,8 @@ using System.Text;
 
 namespace PlansAndDreams.Core.domain
 {
-    public interface ISuenoRepository
+    public interface ISonadorRepository
     {
-        bool agregarSueno(Sueno sueno);
+        bool CrearSonador(Sonador sonador);
     }
 }
