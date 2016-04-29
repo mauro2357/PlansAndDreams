@@ -32,7 +32,6 @@ D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\bin\Debu
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\PlansAndDreams.Tests.dll.config
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\PlansAndDreams.Tests.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\PlansAndDreams.Tests.pdb
-D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\PlansAndDreams.Core.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\Selenium.WebDriverBackedSelenium.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\TechTalk.SpecFlow.dll

@@ -23,6 +23,9 @@ namespace PlansAndDreams.Core.domain
             set { _IdCategoria = value; }
         }
 
-
+        public Boolean AgregarCategoria()
+        {
+            return true;
+        }
     }
 }
