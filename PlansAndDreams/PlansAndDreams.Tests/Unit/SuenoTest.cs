@@ -74,5 +74,41 @@ namespace PlansAndDreams.Tests
             target.agregar();
             //Assert.Inconclusive("Un método que no devuelve ningún valor no se puede comprobar.");
         }
+
+
+        /// <summary>
+        ///Una prueba de listar sueños
+        ///</summary>
+        [TestMethod()]
+        public void ListarSuenos()
+        {
+
+            Sonador _jose = new Sonador();
+            _jose.Nombre = "Jose";
+            _jose.Apellido = "Galarga";
+            _jose.Documento = "545636";
+
+            Sonador _erika = new Sonador();
+            _erika.Nombre = "Erike";
+            _erika.Apellido = "Correa";
+            _erika.Documento = "454655";
+
+            CategoriaSueno _categoriaS = new CategoriaSueno();
+            _categoriaS.IdCategoria = 12;
+            _categoriaS.NombreCategoria = "Viajes";
+
+            Sueno _sueno = new Sueno();
+            _sueno.nombre = "Viaje a Europa";
+            _sueno.Categoria = _categoriaS;
+
+            _jose.agregarSueno(_sueno);
+            _erika.agregarAmigos(_jose);
+
+
+
+
+
+
+        }
     }
 }
