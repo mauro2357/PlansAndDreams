@@ -23,6 +23,15 @@ namespace PlansAndDreams.Core.domain
             set { _IdCategoria = value; }
         }
 
+        private decimal _Porcentaje;
+
+        public decimal Porcentaje
+        {
+            get { return _Porcentaje; }
+            set { _Porcentaje = value; }
+        }
+
+
         public Boolean AgregarCategoria()
         {
             return true;
