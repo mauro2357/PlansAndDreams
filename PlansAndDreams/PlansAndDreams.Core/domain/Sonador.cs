@@ -22,6 +22,11 @@ namespace PlansAndDreams.Core.domain
 
         public List<Sonador> Amigos { get; set; }
 
+        internal bool CrearSonador(Sonador sonador)
+        {
+            return true;
+        }
+
         public List<Sueno> Suenos { get; set; }
 
         public void agregarSueno(Sueno sueno) {

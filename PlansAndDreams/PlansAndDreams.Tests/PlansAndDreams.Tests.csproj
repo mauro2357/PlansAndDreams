@@ -84,6 +84,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Unit\CatalogoTest.cs" />
     <Compile Include="Unit\SuenoTest.cs" />
+    <Compile Include="Unit\SonadorTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PlansAndDreams.Core\PlansAndDreams.Core.csproj">
