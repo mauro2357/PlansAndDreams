@@ -22,6 +22,11 @@ namespace PlansAndDreams.Core.domain
 
         public List<Sonador> Amigos { get; set; }
 
+        internal bool CrearSonador(Sonador sonador)
+        {
+            return true;
+        }
+
         public List<Sueno> Suenos { get; set; }
 
         public void agregarSueno(Sueno sueno)
@@ -76,6 +81,14 @@ namespace PlansAndDreams.Core.domain
         public List<Sueno> obtenerSuenosAmigo(Sonador sonador)
         {
             List<Sueno> suenos = sonador.Suenos;
+            return suenos;
+        }
+
+        public List<Sueno> ObtenerSuenosFecha(DateTime fecha, Sonador sonador)
+        {
+
+            List<Sueno> suenos = sonador.Suenos.Where(x => x.fechaDeseada == fecha).ToList();
+         
             return suenos;
         }
     }

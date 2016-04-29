@@ -112,5 +112,36 @@ namespace PlansAndDreams.Tests
 
 
         }
+
+        /// <summary>
+        ///Una prueba de listar sueños
+        ///</summary>
+        [TestMethod()]
+        public void ListarSuenosFecha()
+        {
+
+            Sonador _jose = new Sonador();
+            _jose.Nombre = "Jose";
+            _jose.Apellido = "Galarga";
+            _jose.Documento = "545636";
+
+            Sonador _erika = new Sonador();
+            _erika.Nombre = "Erike";
+            _erika.Apellido = "Correa";
+            _erika.Documento = "454655";
+
+            CategoriaSueno _categoriaS = new CategoriaSueno();
+            _categoriaS.IdCategoria = 12;
+            _categoriaS.NombreCategoria = "Viajes";
+
+            Sueno _sueno = new Sueno("Viaje a Europa", new DateTime(2016, 12, 1));
+            _sueno.Categoria = _categoriaS;
+
+            _jose.agregarSueno(_sueno);
+            _erika.agregarAmigos(_jose);
+            List<Sueno> lstSuenosFecha = _erika.ObtenerSuenosFecha(new DateTime(2016, 12, 1), _jose);
+
+            Assert.IsNotNull(lstSuenosFecha);
+        }
     }
 }
