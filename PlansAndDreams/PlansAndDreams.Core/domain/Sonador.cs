@@ -8,6 +8,12 @@ namespace PlansAndDreams.Core.domain
     public class Sonador
     {
 
+        public Sonador()
+        {
+            this.Suenos = new List<Sueno>();
+            this.Amigos = new List<Sonador>();
+        }
+
         public string Nombre { get; set; }
 
         public string Apellido { get; set; }
@@ -24,6 +30,12 @@ namespace PlansAndDreams.Core.domain
         public void agregarAmigos(Sonador amigo)
         {
             Amigos.Add(amigo);
+        }
+
+        public List<Sueno> obtenerSuenosAmigo(Sonador sonador)
+        {
+            List<Sueno> suenos = sonador.Suenos;
+            return suenos;
         }
     }
 }

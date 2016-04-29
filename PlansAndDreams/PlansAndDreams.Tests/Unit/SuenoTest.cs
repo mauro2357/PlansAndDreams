@@ -1,6 +1,7 @@
 ﻿using PlansAndDreams.Core.domain;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
 
 namespace PlansAndDreams.Tests
 {
@@ -105,7 +106,9 @@ namespace PlansAndDreams.Tests
             _erika.agregarAmigos(_jose);
 
 
+            List<Sueno> lstSuenos = _erika.obtenerSuenosAmigo(_jose);
 
+            Assert.IsNotNull(lstSuenos);
 
 
 
