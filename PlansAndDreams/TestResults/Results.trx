@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="a919aae2-7781-40fc-8b2b-44949d4a187a" name="stiven_londono@PRISTIVENL 2016-04-28 13:52:32" runUser="SATRACK\stiven_londono" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestSettings name="Configuración de pruebas predeterminada" id="9df6372c-886b-4d0e-8842-0032ab26fcf5">
-    <Deployment userDeploymentRoot="D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="stiven_londono_PRISTIVENL 2016-04-28 13_52_32" />
+<TestRun id="173a1fd1-a0ff-4305-8d4b-f21f16fc432d" name="Andres_Londono@PRIANDRESLM 2016-04-29 14:30:23" runUser="SATRACK\Andres_Londono" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Configuración de pruebas predeterminada" id="6410f86e-5e77-4ffa-97f3-b056756ac417">
+    <Deployment userDeploymentRoot="D:\Repos\PlansAndDreams\PlansAndDreams\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="Andres_Londono_PRIANDRESLM 2016-04-29 14_30_23" />
     <Execution>
       <TestTypeSpecific />
       <AgentRule name="Execution Agents">
@@ -9,28 +9,52 @@
     </Execution>
     <Properties />
   </TestSettings>
-  <Times creation="2016-04-28T13:52:32.9258452-05:00" queuing="2016-04-28T13:52:33.3427244-05:00" start="2016-04-28T13:52:33.4460919-05:00" finish="2016-04-28T13:52:39.9043108-05:00" />
-  <ResultSummary outcome="Completed">
-    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  <Times creation="2016-04-29T14:30:23.3853458-05:00" queuing="2016-04-29T14:30:24.0434171-05:00" start="2016-04-29T14:30:24.1844223-05:00" finish="2016-04-29T14:31:30.3619415-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="7" passed="6" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="1" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
   </ResultSummary>
   <TestDefinitions>
-    <UnitTest name="agregarTest" storage="buildartifacts\plansanddreams.tests.dll" id="718aa991-0bd0-3c45-4719-33074431c9c9">
-      <Execution id="176809eb-ddbb-4ff4-8340-497520e8157a" />
-      <TestMethod codeBase="D:/CAPACITACION/ELITEAGILEDEVELOPER/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.SuenoTest, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="agregarTest" />
-    </UnitTest>
     <UnitTest name="SuenoConComprarUnaCasa" storage="buildartifacts\plansanddreams.tests.dll" id="97f429a3-6622-009a-2058-287bee6a9987">
       <Description>Sueño con comprar una casa</Description>
       <TestCategory>
         <TestCategoryItem TestCategory="mytag" />
       </TestCategory>
-      <Execution id="16144884-c6aa-49ca-bec6-a3d47fefbd79" />
+      <Execution id="fde1b96b-33d6-4d44-ba82-649e48c27935" />
       <Properties>
         <Property>
           <Key>FeatureTitle</Key>
           <Value>VisualizarSuenos</Value>
         </Property>
       </Properties>
-      <TestMethod codeBase="D:/CAPACITACION/ELITEAGILEDEVELOPER/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.Acceptance.VisualizarSuenos.VisualizarSuenosFeature, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuenoConComprarUnaCasa" />
+      <TestMethod codeBase="D:/Repos/PlansAndDreams/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.Acceptance.VisualizarSuenos.VisualizarSuenosFeature, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuenoConComprarUnaCasa" />
+    </UnitTest>
+    <UnitTest name="CrearSonadorTest" storage="buildartifacts\plansanddreams.tests.dll" id="1b77ccb6-d7dc-4918-ca5f-0374499b5e32">
+      <Execution id="5f687656-3ff4-48f4-8835-8df728ba12ca" />
+      <TestMethod codeBase="D:/Repos/PlansAndDreams/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.Unit.SonadorTest, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CrearSonadorTest" />
+    </UnitTest>
+    <UnitTest name="ComprarProducto" storage="buildartifacts\plansanddreams.tests.dll" id="a063b22f-e380-ac2a-6799-4247bd81863e">
+      <Execution id="54342b35-a317-4b70-8672-600415e501cf" />
+      <TestMethod codeBase="D:/Repos/PlansAndDreams/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.Unit.ProductoTest, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ComprarProducto" />
+    </UnitTest>
+    <UnitTest name="ListarSuenos" storage="buildartifacts\plansanddreams.tests.dll" id="0f2335f7-551b-a11c-88d7-00b9f950ca1a">
+      <Execution id="b5cc3c7b-1071-49b3-aca5-1f44aae86dfe" />
+      <TestMethod codeBase="D:/Repos/PlansAndDreams/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.SuenoTest, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListarSuenos" />
+    </UnitTest>
+    <UnitTest name="ListarSuenosFecha" storage="buildartifacts\plansanddreams.tests.dll" id="a9f1f2f6-4f40-5c86-579d-0b38e5315c76">
+      <Execution id="3b3ab8d0-3f17-416c-8a9f-b85e3f2b8e0e" />
+      <TestMethod codeBase="D:/Repos/PlansAndDreams/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.SuenoTest, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListarSuenosFecha" />
+    </UnitTest>
+    <UnitTest name="ObtenerCatalogodeSuenos" storage="buildartifacts\plansanddreams.tests.dll" id="6df8fa07-6ef8-b9f9-e544-da6b4bf09345">
+      <Execution id="b82aab46-38d5-49f4-b82f-967b6547dca0" />
+      <TestMethod codeBase="D:/Repos/PlansAndDreams/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.Unit.CatalogoTest, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObtenerCatalogodeSuenos" />
+    </UnitTest>
+    <UnitTest name="crearSuenoTest" storage="buildartifacts\plansanddreams.tests.dll" id="206e07a1-b3a0-c89c-a44b-8c925911f01f">
+      <Execution id="1b5fbeb6-be70-4495-8804-22088fce0f85" />
+      <TestMethod codeBase="D:/Repos/PlansAndDreams/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Tests.SuenoTest, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="crearSuenoTest" />
+    </UnitTest>
+    <UnitTest name="AgregarCategoriaTest" storage="buildartifacts\plansanddreams.tests.dll" id="a0056c7b-36a9-11a1-5991-78c05acfbe35">
+      <Execution id="6f754e15-457c-42e2-85e7-be1a9bcda137" />
+      <TestMethod codeBase="D:/Repos/PlansAndDreams/PlansAndDreams/BuildArtifacts/PlansAndDreams.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PlansAndDreams.Core.domain.Tests.CategoriaSuenoTests, PlansAndDreams.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AgregarCategoriaTest" />
     </UnitTest>
   </TestDefinitions>
   <TestLists>
@@ -38,27 +62,82 @@
     <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <TestEntries>
-    <TestEntry testId="97f429a3-6622-009a-2058-287bee6a9987" executionId="16144884-c6aa-49ca-bec6-a3d47fefbd79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="718aa991-0bd0-3c45-4719-33074431c9c9" executionId="176809eb-ddbb-4ff4-8340-497520e8157a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0056c7b-36a9-11a1-5991-78c05acfbe35" executionId="6f754e15-457c-42e2-85e7-be1a9bcda137" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97f429a3-6622-009a-2058-287bee6a9987" executionId="fde1b96b-33d6-4d44-ba82-649e48c27935" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="206e07a1-b3a0-c89c-a44b-8c925911f01f" executionId="1b5fbeb6-be70-4495-8804-22088fce0f85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f2335f7-551b-a11c-88d7-00b9f950ca1a" executionId="b5cc3c7b-1071-49b3-aca5-1f44aae86dfe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9f1f2f6-4f40-5c86-579d-0b38e5315c76" executionId="3b3ab8d0-3f17-416c-8a9f-b85e3f2b8e0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6df8fa07-6ef8-b9f9-e544-da6b4bf09345" executionId="b82aab46-38d5-49f4-b82f-967b6547dca0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a063b22f-e380-ac2a-6799-4247bd81863e" executionId="54342b35-a317-4b70-8672-600415e501cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b77ccb6-d7dc-4918-ca5f-0374499b5e32" executionId="5f687656-3ff4-48f4-8835-8df728ba12ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <Results>
-    <UnitTestResult executionId="16144884-c6aa-49ca-bec6-a3d47fefbd79" testId="97f429a3-6622-009a-2058-287bee6a9987" testName="SuenoConComprarUnaCasa" computerName="PRISTIVENL" duration="00:00:06.0373404" startTime="2016-04-28T13:52:33.4642896-05:00" endTime="2016-04-28T13:52:39.7621455-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16144884-c6aa-49ca-bec6-a3d47fefbd79">
+    <UnitTestResult executionId="6f754e15-457c-42e2-85e7-be1a9bcda137" testId="a0056c7b-36a9-11a1-5991-78c05acfbe35" testName="AgregarCategoriaTest" computerName="PRIANDRESLM" duration="00:00:00.0167510" startTime="2016-04-29T14:30:24.2209209-05:00" endTime="2016-04-29T14:30:24.5104889-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f754e15-457c-42e2-85e7-be1a9bcda137">
+    </UnitTestResult>
+    <UnitTestResult executionId="fde1b96b-33d6-4d44-ba82-649e48c27935" testId="97f429a3-6622-009a-2058-287bee6a9987" testName="SuenoConComprarUnaCasa" computerName="PRIANDRESLM" duration="00:01:05.6510850" startTime="2016-04-29T14:30:24.5124895-05:00" endTime="2016-04-29T14:31:30.2724315-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fde1b96b-33d6-4d44-ba82-649e48c27935">
       <Output>
         <StdOut>Given Yo ingreso a la pantalla de sueños
 Abre el navegador
--&gt; done: VisualizadorSuenosStep.GivenYoIngresoALaPantallaDeSuenos() (5.8s)
+-&gt; done: VisualizadorSuenosStep.GivenYoIngresoALaPantallaDeSuenos() (61,5s)
 When Yo selecciono como sueño una casa en rionegro
-Ingresa que quiere buscar.
--&gt; done: VisualizadorSuenosStep.WhenYoSeleccionoComoSuenoUnaCasaEnRionegro() (0.1s)
+-&gt; error: Unexpected error. System.Net.WebException: No es posible conectar con el servidor remoto ---&gt; System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:65330
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket&amp; socket, IPAddress&amp; address, ConnectSocketState state, IAsyncResult asyncResult, Exception&amp; exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext&amp; context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\HttpCommandExecutor.cs:línea 116
+   en OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\DriverServiceCommandExecutor.cs:línea 84
+   en OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 1060
 Then Deberia aparecer en pantalla 120000000
-Cierra el browser
--&gt; done: VisualizadorSuenosStep.ThenDeberiaAparecerEnPantalla(120000000) (0.1s)</StdOut>
+-&gt; skipped because of previous errors</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba PlansAndDreams.Tests.Acceptance.VisualizarSuenos.VisualizarSuenosFeature.SuenoConComprarUnaCasa produjo la excepción: 
+OpenQA.Selenium.WebDriverException: Unexpected error. System.Net.WebException: No es posible conectar con el servidor remoto ---&gt; System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:65330
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket&amp; socket, IPAddress&amp; address, ConnectSocketState state, IAsyncResult asyncResult, Exception&amp; exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext&amp; context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\HttpCommandExecutor.cs:línea 116
+   en OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\DriverServiceCommandExecutor.cs:línea 84
+   en OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 1060</Message>
+          <StackTrace>    en OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 1314
+   en OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 1070
+   en OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 1101
+   en OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 547
+   en OpenQA.Selenium.By.&lt;&gt;c__DisplayClass2.&lt;Id&gt;b__0(ISearchContext context) en c:\Projects\webdriver\dotnet\src\webdriver\By.cs:línea 135
+   en OpenQA.Selenium.By.FindElement(ISearchContext context) en c:\Projects\webdriver\dotnet\src\webdriver\By.cs:línea 303
+   en OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 426
+   en PlansAndDreams.Tests.Acceptance.VisualizarSuenos.VisualizadorSuenosStep.WhenYoSeleccionoComoSuenoUnaCasaEnRionegro() en d:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\Acceptance\VisualizarSuenos\VisualizadorSuenosStep.cs:línea 30
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en PlansAndDreams.Tests.Acceptance.VisualizarSuenos.VisualizarSuenosFeature.ScenarioCleanup() en d:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\Acceptance\VisualizarSuenos\VisualizarSuenos.feature.cs:línea 0
+   en PlansAndDreams.Tests.Acceptance.VisualizarSuenos.VisualizarSuenosFeature.SuenoConComprarUnaCasa() en d:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\Acceptance\VisualizarSuenos\VisualizarSuenos.feature:línea 10
+</StackTrace>
+        </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="176809eb-ddbb-4ff4-8340-497520e8157a" testId="718aa991-0bd0-3c45-4719-33074431c9c9" testName="agregarTest" computerName="PRISTIVENL" duration="00:00:00.0204310" startTime="2016-04-28T13:52:39.7933992-05:00" endTime="2016-04-28T13:52:39.8417994-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="176809eb-ddbb-4ff4-8340-497520e8157a">
+    <UnitTestResult executionId="1b5fbeb6-be70-4495-8804-22088fce0f85" testId="206e07a1-b3a0-c89c-a44b-8c925911f01f" testName="crearSuenoTest" computerName="PRIANDRESLM" duration="00:00:00.0005953" startTime="2016-04-29T14:31:30.2744293-05:00" endTime="2016-04-29T14:31:30.2784282-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b5fbeb6-be70-4495-8804-22088fce0f85">
+    </UnitTestResult>
+    <UnitTestResult executionId="b5cc3c7b-1071-49b3-aca5-1f44aae86dfe" testId="0f2335f7-551b-a11c-88d7-00b9f950ca1a" testName="ListarSuenos" computerName="PRIANDRESLM" duration="00:00:00.0013827" startTime="2016-04-29T14:31:30.2804303-05:00" endTime="2016-04-29T14:31:30.2834289-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5cc3c7b-1071-49b3-aca5-1f44aae86dfe">
+    </UnitTestResult>
+    <UnitTestResult executionId="3b3ab8d0-3f17-416c-8a9f-b85e3f2b8e0e" testId="a9f1f2f6-4f40-5c86-579d-0b38e5315c76" testName="ListarSuenosFecha" computerName="PRIANDRESLM" duration="00:00:00.0014941" startTime="2016-04-29T14:31:30.2854298-05:00" endTime="2016-04-29T14:31:30.2894291-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b3ab8d0-3f17-416c-8a9f-b85e3f2b8e0e">
+    </UnitTestResult>
+    <UnitTestResult executionId="b82aab46-38d5-49f4-b82f-967b6547dca0" testId="6df8fa07-6ef8-b9f9-e544-da6b4bf09345" testName="ObtenerCatalogodeSuenos" computerName="PRIANDRESLM" duration="00:00:00.0039126" startTime="2016-04-29T14:31:30.2904290-05:00" endTime="2016-04-29T14:31:30.2964284-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b82aab46-38d5-49f4-b82f-967b6547dca0">
+    </UnitTestResult>
+    <UnitTestResult executionId="54342b35-a317-4b70-8672-600415e501cf" testId="a063b22f-e380-ac2a-6799-4247bd81863e" testName="ComprarProducto" computerName="PRIANDRESLM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54342b35-a317-4b70-8672-600415e501cf">
       <Output>
-        <StdOut>Sueño Agregado Exitosamente</StdOut>
+        <ErrorInfo>
+          <Message>UTA004: uso no válido del atributo en PlansAndDreams.Tests.Unit.ProductoTest.ComprarProducto. TestMethodAttribute sólo se puede definir en una clase marcada con el atributo TestClass.</Message>
+        </ErrorInfo>
       </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f687656-3ff4-48f4-8835-8df728ba12ca" testId="1b77ccb6-d7dc-4918-ca5f-0374499b5e32" testName="CrearSonadorTest" computerName="PRIANDRESLM" duration="00:00:00.0004009" startTime="2016-04-29T14:31:30.2984298-05:00" endTime="2016-04-29T14:31:30.3009352-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f687656-3ff4-48f4-8835-8df728ba12ca">
     </UnitTestResult>
   </Results>
 </TestRun>

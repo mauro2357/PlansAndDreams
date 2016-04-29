@@ -1,0 +1,3 @@
+[0429/143126:ERROR:process_reader_win.cc(113)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso.  (0xc0000022)
+[0429/143126:ERROR:exception_snapshot_win.cc(56)] thread ID 23972 not found in process
+[0429/143126:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed

@@ -10,3 +10,9 @@ D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\BuildArtifacts\PlansAndDreams
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Release\PlansAndDreams.Core.csprojResolveAssemblyReference.cache
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Release\PlansAndDreams.Core.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Release\PlansAndDreams.Core.pdb
+D:\Repos\PlansAndDreams\PlansAndDreams\BuildArtifacts\PlansAndDreams.Core.dll.config
+D:\Repos\PlansAndDreams\PlansAndDreams\BuildArtifacts\PlansAndDreams.Core.dll
+D:\Repos\PlansAndDreams\PlansAndDreams\BuildArtifacts\PlansAndDreams.Core.pdb
+D:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Release\PlansAndDreams.Core.csprojResolveAssemblyReference.cache
+D:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Release\PlansAndDreams.Core.dll
+D:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Release\PlansAndDreams.Core.pdb
