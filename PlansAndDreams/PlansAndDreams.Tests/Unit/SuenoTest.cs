@@ -64,15 +64,15 @@ namespace PlansAndDreams.Tests
         #endregion
 
 
-        /// <summary>
-        ///Una prueba de agregar
-        ///</summary>
+        
+         
         [TestMethod()]
-        public void agregarTest()
+        public void crearSuenoTest()
         {
-            Sueno target = new Sueno(); // TODO: Inicializar en un valor adecuado
-            target.agregar();
-            //Assert.Inconclusive("Un método que no devuelve ningún valor no se puede comprobar.");
+            Sueno sueno = new Sueno("bicileta", new DateTime(2016, 12, 25, 0, 0, 0));
+
+            Assert.IsTrue(sueno.guardarSueno());
+             
         }
     }
 }
