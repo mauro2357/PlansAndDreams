@@ -7,6 +7,21 @@ namespace PlansAndDreams.Core.domain
 {
     public class CategoriaSueno
     {
+        public ICategoriaSuenoRepository categoriaSuenoRepository;
+
+        //constructur 
+
+        public CategoriaSueno(string nombreCategoria,decimal porcentaje)
+        {
+            this.NombreCategoria = nombreCategoria;
+            this.Porcentaje = porcentaje;
+        }
+
+        public CategoriaSueno()
+        {
+        }
+
+
         private string _NombreCategoria;
 
         public string NombreCategoria
@@ -34,7 +49,7 @@ namespace PlansAndDreams.Core.domain
 
         public Boolean AgregarCategoria()
         {
-            return true;
+            return categoriaSuenoRepository.AgregarCategoria();
         }
     }
 }
