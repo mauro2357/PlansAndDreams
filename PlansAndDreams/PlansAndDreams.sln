@@ -21,8 +21,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B9D3B6
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{8AD77070-7682-4C3F-A55F-4E907A935B71}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlansAndDreams.WebUI", "PlansAndDreams.WebUI\PlansAndDreams.WebUI.csproj", "{EC3F1541-F655-4DC4-98C1-8977188A63C9}"
 EndProject
 Global
@@ -46,9 +44,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EC3F1541-F655-4DC4-98C1-8977188A63C9} = {8AD77070-7682-4C3F-A55F-4E907A935B71}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = PlansAndDreams.vsmdi

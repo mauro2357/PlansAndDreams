@@ -19,7 +19,7 @@ namespace PlansAndDreams.Tests.Acceptance.CrearCategoriasSueno
         [Given(@"Acceso a la pantalla de registro de categoria")]
         public void GivenAccesoALaPantallaDeRegistroDeCategoria()
         {
-            driver.Navigate().GoToUrl("http://localhost:9030/PlansAndDreams/CrearCategoriaSueno.aspx");
+            driver.Navigate().GoToUrl("http://localhost/PlansAndDreams.WebUI/Forms/CategoriaSueno.aspx");
         }
 
         [Given(@"ingreso la categoria ""(.*)""")]
@@ -43,6 +43,7 @@ namespace PlansAndDreams.Tests.Acceptance.CrearCategoriasSueno
             IWebElement mensajeEnPantallaElement = wait.Until<IWebElement>(d => d.FindElement(By.Id("mensajeEnPantalla")));
             String mensajeEnPantalla = mensajeEnPantallaElement.Text;
             Assert.AreEqual(mensaje, mensajeEnPantalla);
+            driver.Close();
         }
 
     }
