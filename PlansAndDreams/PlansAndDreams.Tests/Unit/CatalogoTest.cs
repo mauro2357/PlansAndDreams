@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PlansAndDreams.Core.domain;
+using PlansAndDreams.Tests.MockRepositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace PlansAndDreams.Tests.Unit
         public void ObtenerCatalogodeSuenos() {
 
             //Arrande
-            Sonador _jose = new Sonador();
+            Sonador _jose = new Sonador(new SonadorMockRepository());
             var _lstSuenos = new List<Sueno>();
             _jose.Nombre = "Jose";
             Sueno _viajeAEuropa = new Sueno("", DateTime.Now);

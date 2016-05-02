@@ -44,12 +44,14 @@
     <Compile Include="domain\CategoriaSueno.cs" />
     <Compile Include="domain\Estimulante.cs" />
     <Compile Include="domain\ICategoriaSuenoRepository.cs" />
+    <Compile Include="domain\ISonadorRepository.cs" />
     <Compile Include="domain\ISuenoRepository.cs" />
     <Compile Include="domain\Producto.cs" />
     <Compile Include="domain\Sonador.cs" />
     <Compile Include="domain\Sueno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="repositories\CategoriaSuenoSuenosRepository.cs" />
+    <Compile Include="repositories\SonadorRepository.cs" />
     <Compile Include="repositories\SuenosRepository.cs" />
     <Compile Include="services\SuenoApplicationService.cs" />
   </ItemGroup>

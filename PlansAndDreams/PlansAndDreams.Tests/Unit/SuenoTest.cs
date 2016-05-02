@@ -85,12 +85,12 @@ namespace PlansAndDreams.Tests
         public void ListarSuenos()
         {
 
-            Sonador _jose = new Sonador();
+            Sonador _jose = new Sonador(new SonadorMockRepository());
             _jose.Nombre = "Jose";
             _jose.Apellido = "Galarga";
             _jose.Documento = "545636";
 
-            Sonador _erika = new Sonador();
+            Sonador _erika = new Sonador(new SonadorMockRepository());
             _erika.Nombre = "Erike";
             _erika.Apellido = "Correa";
             _erika.Documento = "454655";
@@ -121,12 +121,12 @@ namespace PlansAndDreams.Tests
         public void ListarSuenosFecha()
         {
 
-            Sonador _jose = new Sonador();
+            Sonador _jose = new Sonador(new SonadorMockRepository());
             _jose.Nombre = "Jose";
             _jose.Apellido = "Galarga";
             _jose.Documento = "545636";
 
-            Sonador _erika = new Sonador();
+            Sonador _erika = new Sonador(new SonadorMockRepository());
             _erika.Nombre = "Erike";
             _erika.Apellido = "Correa";
             _erika.Documento = "454655";
