@@ -31,8 +31,8 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "VisualizarSuenos", "Para poder saber en que puedo invertir mis ahorros\r\nComo un soñador\r\nQuiero conoc" +
-                    "er cuanto dinero necesito para hacer mi sueño realidad.", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "VisualizarSuenos", "Para poder saber en que puedo invertir mis ahorros\nComo un soñador\nQuiero conocer" +
+                    " cuanto dinero necesito para hacer mi sueño realidad.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

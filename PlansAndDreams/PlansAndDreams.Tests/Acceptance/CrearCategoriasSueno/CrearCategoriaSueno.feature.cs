@@ -31,8 +31,8 @@ namespace PlansAndDreams.Tests.Acceptance.CrearCategoriasSueno
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CrearCategoriaSueno", "Como Facilitador del sueño\r\nQuiero registrar las categorias de los sueños\r\nPara P" +
-                    "oder cobrar dependiendo de la categoria.", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CrearCategoriaSueno", "Como Facilitador del sueño\nQuiero registrar las categorias de los sueños\nPara Pod" +
+                    "er cobrar dependiendo de la categoria.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

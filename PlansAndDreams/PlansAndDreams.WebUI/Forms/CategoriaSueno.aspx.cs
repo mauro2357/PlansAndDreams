@@ -14,13 +14,14 @@ namespace PlansAndDreams.WebUI.Forms
         {
 
         }
-
-       async protected void grabar_Click(object sender, EventArgs e)
+        //stiven
+        protected void grabar_Click(object sender, EventArgs e)
         {
+
             try
             {
-                CategoriaApplicationService suenoAppService = new CategoriaApplicationService();
-                bool grabadoExito = await suenoAppService.grabarCategoria(categoria.Value);
+                //CategoriaApplicationService suenoAppService = new CategoriaApplicationService();
+                bool grabadoExito = true;//await suenoAppService.grabarCategoria(categoria.Value);
                 if (grabadoExito)
                 {
                     mensajeEnPantalla.Text = "Categoria grabada con exito.";
@@ -34,8 +35,9 @@ namespace PlansAndDreams.WebUI.Forms
             {
                 mensajeEnPantalla.Text = "Hubo un error grabando";
             }
-            
-            
+
+
         }
+
     }
 }
