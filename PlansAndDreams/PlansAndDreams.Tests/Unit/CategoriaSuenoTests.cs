@@ -15,7 +15,7 @@ namespace PlansAndDreams.Core.domain.Tests
         [TestMethod()]
         public void AgregarCategoriaTest()
         {
-            //Arrange
+            //Arrange 
             CategoriaSueno target = new CategoriaSueno();
             target.categoriaSuenoRepository = new CategoriaSuenoMockRepository();
             var expected = true;
