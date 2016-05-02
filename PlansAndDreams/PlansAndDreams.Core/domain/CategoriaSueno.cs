@@ -50,7 +50,7 @@ namespace PlansAndDreams.Core.domain
 
         public Task<bool> AgregarCategoria()
         {
-            return categoriaSuenoRepository.AgregarCategoria();
+            return categoriaSuenoRepository.AgregarCategoria(this.NombreCategoria);
         }
     }
 }

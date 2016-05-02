@@ -17,7 +17,7 @@ namespace PlansAndDreams.Core.domain.Tests
         {
             //Arrange 
             CategoriaSueno target = new CategoriaSueno();
-            target.categoriaSuenoRepository = new CategoriaSuenoSuenosRepository();
+            target.categoriaSuenoRepository = new CategoriaSuenoRepository();
             var expected = true;
             target.NombreCategoria = "Viaje";
             target.Porcentaje = 10;

@@ -15,12 +15,12 @@ namespace PlansAndDreams.WebUI.Forms
 
         }
 
-        protected void grabar_Click(object sender, EventArgs e)
+       async protected void grabar_Click(object sender, EventArgs e)
         {
             try
             {
-                SuenoApplicationService suenoAppService = new SuenoApplicationService();
-                bool grabadoExito = suenoAppService.grabarSueno(categoria.Value);
+                CategoriaApplicationService suenoAppService = new CategoriaApplicationService();
+                bool grabadoExito = await suenoAppService.grabarCategoria(categoria.Value);
                 if (grabadoExito)
                 {
                     mensajeEnPantalla.Text = "Categoria grabada con exito.";

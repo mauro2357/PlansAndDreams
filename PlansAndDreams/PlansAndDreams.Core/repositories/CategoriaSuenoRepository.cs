@@ -10,15 +10,15 @@ using System.Threading.Tasks;
 
 namespace PlansAndDreams.Core.repositories
 {
-    public class CategoriaSuenoSuenosRepository : ICategoriaSuenoRepository
+    public class CategoriaSuenoRepository : ICategoriaSuenoRepository
     {
-        async public Task<bool> AgregarCategoria()
+        async public Task<bool> AgregarCategoria(string nombreCategoria)
         {
             try
             {
                 Categoria categoria = new Categoria
                 {
-                    Nombre = "Sample"
+                    Nombre = nombreCategoria
                 };
                 var result = await PostAsync("https://plananddreams.azurewebsites.net/tables/categoria", categoria);
                 if (result.IsSuccessStatusCode)
