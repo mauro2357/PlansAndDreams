@@ -75,6 +75,7 @@
     <Compile Include="repositories\SuenosRepository.cs" />
     <Compile Include="services\CategoriaApplicationService.cs" />
     <Compile Include="services\SuenoApplicationService.cs" />
+    <Compile Include="Utilities\HttpService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
