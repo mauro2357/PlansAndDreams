@@ -33,7 +33,7 @@ namespace PlansAndDreams.Core.repositories
                     Console.WriteLine("Error guardando...");
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 Console.WriteLine("Error guardando...");
             }
