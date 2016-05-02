@@ -1,4 +1,4 @@
-﻿<%@ Page Async="true" Language="C#" AutoEventWireup="true" CodeBehind="CategoriaSueno.aspx.cs" Inherits="PlansAndDreams.WebUI.Forms.CategoriaSueno" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CategoriaSueno.aspx.cs" Inherits="PlansAndDreams.WebUI.Forms.CategoriaSueno" %>
 
 <!DOCTYPE html>
 
@@ -22,5 +22,4 @@
             <asp:Label ID="mensajeEnPantalla" runat="server" ForeColor="Red" />
         </div>
     </form>
-</body>
-</html>
+</body></html>

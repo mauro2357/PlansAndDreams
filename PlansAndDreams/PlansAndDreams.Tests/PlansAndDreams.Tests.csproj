@@ -98,7 +98,6 @@
     <Compile Include="Integration\SuenoApplicationServiceIntegrationTest.cs" />
     <Compile Include="MockRepositories\CategoriaSuenoMockRepository.cs" />
     <Compile Include="MockRepositories\SonadorMockRepository.cs" />
-    <Compile Include="Unit\CategoriaSuenoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Unit\CatalogoTest.cs" />
     <Compile Include="Unit\EstimulanteSuenoTest.cs" />

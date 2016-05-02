@@ -81,16 +81,12 @@ namespace PlansAndDreams.Core.domain
         }
         public List<Sueno> obtenerSuenosAmigo(Sonador sonador)
         {
-            List<Sueno> suenos = sonador.Suenos;
-            return suenos;
+            return _iSonadorRepository.obtenerSuenosAmigo(sonador);
         }
 
         public List<Sueno> ObtenerSuenosFecha(DateTime fecha, Sonador sonador)
         {
-
-            List<Sueno> suenos = sonador.Suenos.Where(x => x.fechaDeseada == fecha).ToList();
-         
-            return suenos;
+            return _iSonadorRepository.ObtenerSuenosFecha(fecha, sonador);
         }
     }
 }

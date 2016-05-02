@@ -13,5 +13,17 @@ namespace PlansAndDreams.Core.repositories
             Console.WriteLine("Repositorio Base de datos");
             return true;
         }
+
+        public List<Sueno> obtenerSuenosAmigo(Sonador sonador)
+        {
+            List<Sueno> suenos = sonador.Suenos;
+            return suenos;
+        }
+
+        public List<Sueno> ObtenerSuenosFecha(DateTime fecha, Sonador sonador)
+        {
+            List<Sueno> suenos = sonador.Suenos.Where(x => x.fechaDeseada == fecha).ToList();
+            return suenos;
+        }
     }
 }
