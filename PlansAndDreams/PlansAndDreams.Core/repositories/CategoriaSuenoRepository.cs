@@ -31,11 +31,13 @@ namespace PlansAndDreams.Core.repositories
                 else
                 {
                     Console.WriteLine("Error guardando...");
+                    return false;
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Error guardando...");
+                return false;
             }
 
 
