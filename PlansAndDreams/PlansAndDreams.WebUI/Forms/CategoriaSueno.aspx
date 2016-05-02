@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CategoriaSueno.aspx.cs" Inherits="PlansAndDreams.WebUI.Forms.CategoriaSueno" %>
+﻿<%@ Page Async="true" Language="C#" AutoEventWireup="true" CodeBehind="CategoriaSueno.aspx.cs" Inherits="PlansAndDreams.WebUI.Forms.CategoriaSueno" %>
 
 <!DOCTYPE html>
 
