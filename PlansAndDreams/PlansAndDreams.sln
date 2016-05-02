@@ -21,8 +21,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B9D3B6
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlansAndDreams.WebUI", "PlansAndDreams.WebUI\PlansAndDreams.WebUI.csproj", "{EC3F1541-F655-4DC4-98C1-8977188A63C9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,10 +35,6 @@ Global
 		{A9A17A57-4CB7-4883-B8C3-43019D540AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9A17A57-4CB7-4883-B8C3-43019D540AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9A17A57-4CB7-4883-B8C3-43019D540AA6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC3F1541-F655-4DC4-98C1-8977188A63C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC3F1541-F655-4DC4-98C1-8977188A63C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC3F1541-F655-4DC4-98C1-8977188A63C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC3F1541-F655-4DC4-98C1-8977188A63C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
