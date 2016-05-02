@@ -3,15 +3,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace PlansAndDreams.Tests.MockRepositories
 {
     public class CategoriaSuenoMockRepository : ICategoriaSuenoRepository
     {
-        public bool AgregarCategoria()
+        public Task<bool> AgregarCategoria()
         {
-            Console.WriteLine("Aca estoy usando el repositorio basico");
-            return true;
+            throw new NotImplementedException();
         }
     }
 }

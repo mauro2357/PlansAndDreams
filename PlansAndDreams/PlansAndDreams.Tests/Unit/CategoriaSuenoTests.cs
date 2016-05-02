@@ -13,17 +13,17 @@ namespace PlansAndDreams.Core.domain.Tests
     public class CategoriaSuenoTests
     {
         [TestMethod()]
-        public void AgregarCategoriaTest()
+        async public void AgregarCategoriaTest()
         {
             //Arrange 
             CategoriaSueno target = new CategoriaSueno();
-            target.categoriaSuenoRepository = new CategoriaSuenoMockRepository();
+            target.categoriaSuenoRepository = new CategoriaSuenoSuenosRepository();
             var expected = true;
             target.NombreCategoria = "Viaje";
             target.Porcentaje = 10;
 
             //Action
-            Boolean actual = target.AgregarCategoria();
+            bool actual = await target.AgregarCategoria();
 
             //Assert
             Assert.AreEqual(expected, actual);

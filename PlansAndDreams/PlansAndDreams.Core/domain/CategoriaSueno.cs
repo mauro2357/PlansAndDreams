@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace PlansAndDreams.Core.domain
 {
@@ -47,7 +48,7 @@ namespace PlansAndDreams.Core.domain
         }
 
 
-        public Boolean AgregarCategoria()
+        public Task<bool> AgregarCategoria()
         {
             return categoriaSuenoRepository.AgregarCategoria();
         }

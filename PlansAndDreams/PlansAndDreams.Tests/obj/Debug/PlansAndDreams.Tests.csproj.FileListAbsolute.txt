@@ -102,3 +102,5 @@ D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\bin\Debu
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\obj\Debug\PlansAndDreams.Tests.csprojResolveAssemblyReference.cache
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\obj\Debug\PlansAndDreams.Tests.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Tests\obj\Debug\PlansAndDreams.Tests.pdb
+D:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Tests\bin\Debug\Newtonsoft.Json.xml
