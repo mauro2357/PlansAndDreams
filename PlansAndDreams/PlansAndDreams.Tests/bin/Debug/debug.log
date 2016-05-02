@@ -1,0 +1,6 @@
+[0502/110553:ERROR:process_reader_win.cc(113)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso.  (0xc0000022)
+[0502/110553:ERROR:process_reader_win.cc(113)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso.  (0xc0000022)
+[0502/110553:ERROR:exception_snapshot_win.cc(56)] thread ID 21732 not found in process
+[0502/110553:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
+[0502/110553:ERROR:exception_snapshot_win.cc(56)] thread ID 8072 not found in process
+[0502/110553:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
