@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PlansAndDreams.Core.domain;
 using PlansAndDreams.Core.repositories;
+using PlansAndDreams.Tests.MockRepositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace PlansAndDreams.Core.domain.Tests
         {
             //Arrange
             CategoriaSueno target = new CategoriaSueno();
-            target.categoriaSuenoRepository = new CategoriaSuenoSuenosRepository();
+            target.categoriaSuenoRepository = new CategoriaSuenoMockRepository();
             var expected = true;
             target.NombreCategoria = "Viaje";
             target.Porcentaje = 10;
