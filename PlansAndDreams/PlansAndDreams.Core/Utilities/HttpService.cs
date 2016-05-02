@@ -43,7 +43,7 @@ namespace PlansAndDreams.Core.Utilities
                 return await client.PutAsync(serviceUrlFinal, new StringContent(bodyRequest, System.Text.Encoding.UTF8, mediaType));
             }
         }
-        public async Task<HttpResponseMessage> PutAsync<TRequest>(string table, string Id)
+        public async Task<HttpResponseMessage> DeleteAsync<TRequest>(string table, string Id)
         {
             using (var client = new HttpClient())
             {
