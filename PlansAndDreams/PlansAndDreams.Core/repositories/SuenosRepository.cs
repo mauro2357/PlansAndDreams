@@ -12,8 +12,8 @@ namespace PlansAndDreams.Core.repositories
         public bool agregarSueno(Sueno sueno)
         {
             Console.WriteLine("Ya grabé en la base de datos y funcionó");
-            throw new Exception("Opps!!");
-            //return true;
+            //throw new Exception("Opps!!");
+            return true;
         }
     }
 }

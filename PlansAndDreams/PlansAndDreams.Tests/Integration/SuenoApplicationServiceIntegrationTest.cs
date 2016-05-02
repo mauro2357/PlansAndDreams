@@ -12,6 +12,7 @@ namespace PlansAndDreams.Tests.Integration
         {
             SuenoApplicationService suenoApplicationService = new SuenoApplicationService();
             suenoApplicationService.grabarSueno("Viajar a europa");
+            Assert.IsTrue(true);
         }
     }
 }
