@@ -3,12 +3,6 @@ C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDream
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.pdb
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.dll
 C:\Users\juan_giraldo\Desktop\Codigo\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.pdb
-D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll.config
-D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll
-D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.pdb
-D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.dll
-D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.pdb
-D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.csprojResolveAssemblyReference.cache
 C:\Users\andres_nieto\Source\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll.config
 C:\Users\andres_nieto\Source\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll
 C:\Users\andres_nieto\Source\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.pdb
@@ -20,3 +14,8 @@ D:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDre
 D:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.pdb
 D:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.dll
 D:\Repos\PlansAndDreams\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.pdb
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll.config
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.dll
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\bin\Debug\PlansAndDreams.Core.pdb
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.dll
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.Core\obj\Debug\PlansAndDreams.Core.pdb
