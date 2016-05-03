@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using TechTalk.SpecFlow;
 namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenosRegistrados
 {
     [Binding]
-    public  class VisualizarSuenosStep
+    public  class VisualizarSuenosRegistradosStep
     {
        
 
@@ -25,9 +26,11 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenosRegistrados
         }
 
         [Then(@"no deberían mostrarse los sueños mayores a (.*) meses")]
-        public void ThenNoDeberianMostrarseLosSuenosMayoresAMeses(int p0)
+        public void ThenNoDeberianMostrarseLosSuenosMayoresAMeses(string mensaje)
         {
             Console.WriteLine("test");
+            Assert.AreEqual(mensaje,"Prueba");
+
         }
 
         ///Tercer escenario
