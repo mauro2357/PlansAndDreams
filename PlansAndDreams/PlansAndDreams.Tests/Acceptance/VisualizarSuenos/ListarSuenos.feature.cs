@@ -24,15 +24,15 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "VisualizarSuenos.feature"
+#line 1 "ListarSuenos.feature"
 #line hidden
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.ClassInitializeAttribute()]
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "VisualizarSuenos", "Para poder saber en que puedo invertir mis ahorros\nComo un soñador\nQuiero conocer" +
-                    " cuanto dinero necesito para hacer mi sueño realidad.", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "VisualizarSuenos", "Para poder saber en que puedo invertir mis ahorros\r\nComo un soñador\r\nQuiero conoc" +
+                    "er cuanto dinero necesito para hacer mi sueño realidad.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -80,11 +80,11 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("Acceso a la pantalla de los sueños de mis amigos.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Acceso a la pantalla de los sueños de mis amigos", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.When("Carga la pantalla.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("Carga la pantalla", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 10
- testRunner.Then("Deberia aparecer la lista de sueños de todos mis amigos.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Deberia aparecer la lista de sueños de todos mis amigos", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

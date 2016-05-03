@@ -5,6 +5,6 @@
 
 @mytag
 Scenario: Listar sueños de mis amigos
-	Given Acceso a la pantalla de los sueños de mis amigos.
-	When Carga la pantalla.
-	Then Deberia aparecer la lista de sueños de todos mis amigos.
+	Given Acceso a la pantalla de los sueños de mis amigos
+	When Carga la pantalla
+	Then Deberia aparecer la lista de sueños de todos mis amigos

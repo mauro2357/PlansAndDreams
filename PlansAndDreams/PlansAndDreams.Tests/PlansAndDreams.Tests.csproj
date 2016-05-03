@@ -88,9 +88,9 @@
       <DependentUpon>VisualizarSuenosRegistrados.feature</DependentUpon>
     </Compile>
     <Compile Include="Acceptance\VisualizarSuenosRegistrados\VisualizarSuenosRegistradosStep.cs" />
-    <Compile Include="Acceptance\VisualizarSuenos\VisualizadorSuenosStep.cs" />
-    <Compile Include="Acceptance\VisualizarSuenos\VisualizarSuenos.feature.cs">
-      <DependentUpon>VisualizarSuenos.feature</DependentUpon>
+    <Compile Include="Acceptance\VisualizarSuenos\ListarSuenos.cs" />
+    <Compile Include="Acceptance\VisualizarSuenos\ListarSuenos.feature.cs">
+      <DependentUpon>ListarSuenos.feature</DependentUpon>
       <SubType>Code</SubType>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -122,9 +122,9 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>VisualizarSuenosRegistrados.feature.cs</LastGenOutput>
     </None>
-    <None Include="Acceptance\VisualizarSuenos\VisualizarSuenos.feature">
+    <None Include="Acceptance\VisualizarSuenos\ListarSuenos.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>VisualizarSuenos.feature.cs</LastGenOutput>
+      <LastGenOutput>ListarSuenos.feature.cs</LastGenOutput>
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
