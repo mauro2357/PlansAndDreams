@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PlansAndDreams.Core.services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,11 @@ namespace PlansAndDreams.WebUI.Forms
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void grabar2_Click(object sender, EventArgs e)
+        {
+            mensajeEnPantalla.Text = "Sueno grabado con exito.";
         }
     }
 }

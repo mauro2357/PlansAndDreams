@@ -113,19 +113,19 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\CategoriaSueno.aspx.cs">
-      <DependentUpon>CategoriaSueno.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Forms\CategoriaSueno.aspx.designer.cs">
-      <DependentUpon>CategoriaSueno.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Forms\CrearSueno.aspx.cs">
       <DependentUpon>CrearSueno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Forms\CrearSueno.aspx.designer.cs">
       <DependentUpon>CrearSueno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CategoriaSueno.aspx.cs">
+      <DependentUpon>CategoriaSueno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\CategoriaSueno.aspx.designer.cs">
+      <DependentUpon>CategoriaSueno.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
