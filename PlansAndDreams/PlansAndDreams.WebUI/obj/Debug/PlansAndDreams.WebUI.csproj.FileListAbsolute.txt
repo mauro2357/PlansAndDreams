@@ -23,6 +23,7 @@ D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\Micr
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\Microsoft.ApplicationInsights.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\PlansAndDreams.Core.dll
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\Newtonsoft.Json.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\PlansAndDreams.Core.pdb
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\Microsoft.AI.DependencyCollector.xml
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
@@ -30,6 +31,7 @@ D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\Micr
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\Microsoft.AI.WindowsServer.xml
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\Microsoft.ApplicationInsights.xml
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\bin\Newtonsoft.Json.xml
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\obj\Debug\PlansAndDreams.WebUI.csprojResolveAssemblyReference.cache
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\obj\Debug\PlansAndDreams.WebUI.dll
 D:\CAPACITACION\ELITEAGILEDEVELOPER\PlansAndDreams\PlansAndDreams.WebUI\obj\Debug\PlansAndDreams.WebUI.pdb

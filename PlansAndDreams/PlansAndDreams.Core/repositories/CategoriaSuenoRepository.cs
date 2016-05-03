@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using PlansAndDreams.Core.domain;
 using PlansAndDreams.Core.repositories.DtoEntities;
+using PlansAndDreams.Core.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,8 @@ namespace PlansAndDreams.Core.repositories
                 {
                     Nombre = nombreCategoria
                 };
-                var result = await PostAsync("https://plananddreams.azurewebsites.net/tables/categoria", categoria);
+                var client = new HttpService();
+                var result = await client.PostAsync("categoria", categoria);
                 if (result.IsSuccessStatusCode)
                 {
                     string response = await result.Content.ReadAsStringAsync();
@@ -45,20 +47,5 @@ namespace PlansAndDreams.Core.repositories
         }
 
 
-
-        public async Task<HttpResponseMessage> PostAsync<TRequest>(string serviceUrl, TRequest request, string mediaType = "application/json")
-        {
-            using (var client = new HttpClient())
-            {
-                string bodyRequest;
-                bodyRequest = JsonConvert.SerializeObject(request);
-                client.DefaultRequestHeaders.Add("ZUMO-API-VERSION", "2.0.0");
-                return await client.PostAsync(serviceUrl, new StringContent(bodyRequest, System.Text.Encoding.UTF8, mediaType));
-            }
-        }
-
     }
-
-
-
 }
