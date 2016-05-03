@@ -13,7 +13,7 @@ namespace PlansAndDreams.Core.repositories
 {
     public class CategoriaSuenoRepository : ICategoriaSuenoRepository
     {
-        async public Task<bool> AgregarCategoria(string nombreCategoria)
+        public bool AgregarCategoria(string nombreCategoria)
         {
             try
             {
@@ -21,12 +21,13 @@ namespace PlansAndDreams.Core.repositories
                 {
                     Nombre = nombreCategoria
                 };
+
                 var client = new HttpService();
-                var result = await client.PostAsync("categoria", categoria);
+                var result =  client.PostAsync("categoria", categoria);
                 if (result.IsSuccessStatusCode)
                 {
-                    string response = await result.Content.ReadAsStringAsync();
-                    Categoria serializedResponse = JsonConvert.DeserializeObject<Categoria>(response);
+                    //string response = await result.Content.ReadAsStringAsync();
+                    //Categoria serializedResponse = JsonConvert.DeserializeObject<Categoria>(response);
                     //serializedResponse contiene el registro almacenado
                     Console.WriteLine("Ya grabé en la base de datos y funcionó");
                 }
@@ -46,6 +47,9 @@ namespace PlansAndDreams.Core.repositories
             return true;
         }
 
-
+        public bool ValidarCategoriaExiste(string nombreCategoria)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

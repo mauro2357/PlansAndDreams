@@ -31,7 +31,7 @@ namespace PlansAndDreams.Tests.Acceptance.CrearSueno
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CrearSueno", "Como soñador del sueño\nQuiero dar a conocer mis sueños\nPara hacerlo realidad.", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CrearSueno", "Como soñador del sueño\r\nQuiero dar a conocer mis sueños\r\nPara hacerlo realidad.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -85,7 +85,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 10
  testRunner.When("Cuando presione el boton grabar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 11
- testRunner.Then("El sistema debe decir que el sueño fue grabado exitosamente.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Deberia aparecer el mensaje \"Sueno grabada con exito.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

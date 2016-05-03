@@ -1,4 +1,6 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +12,8 @@ namespace PlansAndDreams.Tests.Acceptance.CrearSueno
     [Binding]
     public class CrearSuenoStep
     {
+        IWebDriver driver = new ChromeDriver(@"C:\exc"); /*andres el mejor*/
+
         [Given(@"El sonador ingresa en una pantalla sueño: ""(.*)""")]
         public void GivenElSonadorIngresaEnUnaPantallaSueno(string p0)
         {

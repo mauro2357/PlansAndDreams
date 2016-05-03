@@ -96,5 +96,11 @@ namespace PlansAndDreams.Core.domain
             lstSuenos = lstSuenos.Where(x => x.fechaDeseada > fechaIni).ToList();
             return lstSuenos;
         }
+
+        public List<Sueno> obtenerSuenosAmigos()
+        {
+            
+            return _iSonadorRepository.obtenerSuenosAmigos(this);
+        }
     }
 }
