@@ -80,8 +80,6 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenosRegistrados
 this.ScenarioSetup(scenarioInfo);
 #line 8
  testRunner.Given("Acceder a la pantalla de visualizacion de sueños", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
- testRunner.When("cargue la pagina", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 10
  testRunner.Then("no deberian mostrarse los sueños mayores a 3 meses", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

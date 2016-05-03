@@ -44,10 +44,10 @@ namespace PlansAndDreams.Core.domain
             CatalogoProductos catalogoProductos = new CatalogoProductos();
             catalogoProductos.Productos = new List<Producto>();
             List<Producto> lstProductosEncontrados = new List<Producto>();
-          
+
             //Se simula el origen de datos
             var dataProductos = new List<Producto>();
-            dataProductos.Add(new Producto { Nombre= "Viaje especial", Categoria = new CategoriaSueno { NombreCategoria = "Viajes" } });
+            dataProductos.Add(new Producto { Nombre = "Viaje especial", Categoria = new CategoriaSueno { NombreCategoria = "Viajes" } });
             dataProductos.Add(new Producto { Nombre = "Viaje Quince", Categoria = new CategoriaSueno { NombreCategoria = "Viajes" } });
             dataProductos.Add(new Producto { Categoria = new CategoriaSueno { NombreCategoria = "Viajes" } });
             dataProductos.Add(new Producto { Categoria = new CategoriaSueno { NombreCategoria = "Pensión" } });
@@ -59,17 +59,17 @@ namespace PlansAndDreams.Core.domain
             //Se agrupan las categorias de los sueños para que no esten repetidas
             foreach (var sueno in this.Suenos)
             {
-                if (categoriasDelSueno.Where(x=> x.NombreCategoria==sueno.Categoria.NombreCategoria).Count()==0)
+                if (categoriasDelSueno.Where(x => x.NombreCategoria == sueno.Categoria.NombreCategoria).Count() == 0)
                 {
                     categoriasDelSueno.Add(sueno.Categoria);
-                } 
+                }
             }
 
-           
+
             //se recorren las categorias y se buscan que productos tienen esa categoria
             foreach (var categoria in categoriasDelSueno)
             {
-                foreach (var productoEncontrado in dataProductos.Where(x=> x.Categoria.NombreCategoria== categoria.NombreCategoria))
+                foreach (var productoEncontrado in dataProductos.Where(x => x.Categoria.NombreCategoria == categoria.NombreCategoria))
                 {
                     lstProductosEncontrados.Add(productoEncontrado);
                 }
@@ -87,6 +87,14 @@ namespace PlansAndDreams.Core.domain
         public List<Sueno> ObtenerSuenosFecha(DateTime fecha, Sonador sonador)
         {
             return _iSonadorRepository.ObtenerSuenosFecha(fecha, sonador);
+        }
+
+        public List<Sueno> ObtenerSuenosMayoresa(int meses, Sonador sonador)
+        {
+            var fechaIni = DateTime.Now.AddMonths(-meses);
+            List<Sueno> lstSuenos = _iSonadorRepository.ObtenerSuenosMayoresa(sonador);
+            lstSuenos = lstSuenos.Where(x => x.fechaDeseada > fechaIni).ToList();
+            return lstSuenos;
         }
 
         public List<Sueno> obtenerSuenosAmigos()

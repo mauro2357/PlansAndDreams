@@ -79,13 +79,13 @@ namespace PlansAndDreams.Tests.Acceptance.CrearSueno
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("El sonador ingresa en una pantalla sueño: \"comprar una bicicleta\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("El sonador ingresa a la pantalla \"suenos\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.And("fecha: \"24-dic-2016\" categoria: \"juguete\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("crea el sueno: \"comprar una bicicleta\" fecha: \"24-dic-2016\" categoria: \"juguete\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 10
  testRunner.When("Cuando presione el boton grabar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 11
- testRunner.Then("Deberia aparecer el mensaje \"Sueno grabada con exito.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Deberia aparecer el siguiente mensaje \"Sueno grabado con exito.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

@@ -5,8 +5,8 @@
 
 @mytag
 Scenario: Crear sueno
-	Given El sonador ingresa en una pantalla sueño: "comprar una bicicleta"
-	And  fecha: "24-dic-2016" categoria: "juguete"
+	Given El sonador ingresa a la pantalla "suenos"
+	And  crea el sueno: "comprar una bicicleta" fecha: "24-dic-2016" categoria: "juguete"
 	When Cuando presione el boton grabar
-	Then Deberia aparecer el mensaje "Sueno grabada con exito."
+	Then Deberia aparecer el siguiente mensaje "Sueno grabado con exito."
 

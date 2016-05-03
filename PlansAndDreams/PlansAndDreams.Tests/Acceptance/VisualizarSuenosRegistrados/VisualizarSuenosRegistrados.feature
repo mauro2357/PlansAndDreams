@@ -6,7 +6,7 @@
 @mytag
 Scenario: Descartar suenos mayores 3 meses
 	Given Acceder a la pantalla de visualizacion de sueños	
-	When cargue la pagina
+	#When cargue la lista
 	Then  no deberian mostrarse los sueños mayores a 3 meses
 
 #@mytag
