@@ -9,9 +9,21 @@ namespace PlansAndDreams.Tests.MockRepositories
 {
     public class CategoriaSuenoMockRepository : ICategoriaSuenoRepository
     {
-        public Task<bool> AgregarCategoria(string nombreCategoria)
+        public bool AgregarCategoria(string nombreCategoria)
         {
-            throw new NotImplementedException();
+            return true; 
+        }
+
+        public bool ValidarCategoriaExiste(string nombreCategoria)
+        {
+            if (nombreCategoria == "Juguetes")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

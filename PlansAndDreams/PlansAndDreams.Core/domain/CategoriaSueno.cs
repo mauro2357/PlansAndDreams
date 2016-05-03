@@ -48,9 +48,14 @@ namespace PlansAndDreams.Core.domain
         }
 
 
-        public Task<bool> AgregarCategoria()
+        public bool AgregarCategoria()
         {
             return categoriaSuenoRepository.AgregarCategoria(this.NombreCategoria);
+        }
+
+        public bool ValidarCategoriaExiste()
+        {
+            return categoriaSuenoRepository.ValidarCategoriaExiste(this.NombreCategoria);
         }
     }
 }
