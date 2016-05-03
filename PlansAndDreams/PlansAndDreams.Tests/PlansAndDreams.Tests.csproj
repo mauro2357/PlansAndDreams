@@ -82,6 +82,12 @@
       <DependentUpon>CrearCategoriaSueno.feature</DependentUpon>
     </Compile>
     <Compile Include="Acceptance\CrearCategoriasSueno\CrearCategoriaSuenosStep.cs" />
+    <Compile Include="Acceptance\CrearSueno\CrearSueno1.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrearSueno.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Acceptance\CrearSueno\CrearSuenoStep.cs" />
     <Compile Include="Acceptance\VisualizarSuenosRegistrados\VisualizarSuenos.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -116,6 +122,10 @@
     <None Include="Acceptance\CrearCategoriasSueno\CrearCategoriaSueno.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>CrearCategoriaSueno.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Acceptance\CrearSueno\CrearSueno.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CrearSueno1.feature.cs</LastGenOutput>
     </None>
     <None Include="Acceptance\VisualizarSuenosRegistrados\VisualizarSuenos.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
