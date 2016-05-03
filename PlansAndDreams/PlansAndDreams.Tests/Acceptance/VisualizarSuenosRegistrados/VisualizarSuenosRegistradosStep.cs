@@ -8,37 +8,32 @@ using TechTalk.SpecFlow;
 namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenosRegistrados
 {
     [Binding]
-    public  class VisualizarSuenosRegistradosStep
+    public class VisualizarSuenosRegistradosStep
     {
-       
-
-        [Given(@"Acceder a la pantalla de visualización de sueños")]
+        [Given(@"Acceder a la pantalla de visualizacion de sueños")]
         public void GivenAccederALaPantallaDeVisualizacionDeSuenos()
         {
-            Console.WriteLine("test");
+            Console.WriteLine("Paso");
         }
 
-        [When(@"cargue la página")]
+        [When(@"cargue la pagina")]
         public void WhenCargueLaPagina()
         {
-            Console.WriteLine("test");
-
+            Console.WriteLine("Paso");
         }
 
-        [Then(@"no deberían mostrarse los sueños mayores a (.*) meses")]
-        public void ThenNoDeberianMostrarseLosSuenosMayoresAMeses(string mensaje)
+        [Then(@"no deberian mostrarse los sueños mayores a (.*) meses")]
+        public void ThenNoDeberianMostrarseLosSuenosMayoresAMeses(int p0)
         {
-            Console.WriteLine("test");
-            Assert.AreEqual(mensaje,"Prueba");
-
+            Console.WriteLine("Paso");
         }
-
-        ///Tercer escenario
-        ///
-       
-
 
     }
-
 }
+
+
+
+
+
+
 
