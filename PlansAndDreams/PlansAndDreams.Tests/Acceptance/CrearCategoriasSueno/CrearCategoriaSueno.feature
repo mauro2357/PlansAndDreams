@@ -14,4 +14,4 @@ Scenario: Validar categoria repetida
 	Given Acceso a la pantalla de registro de categoria
 	And ingreso la categoria "Juguetes"
 	When Presiono grabar
-	Then Deberia aparecer el mensaje "La categoria ya existe"
+	Then Deberia aparecer el mensaje "La categoria ya existe."

@@ -12,7 +12,7 @@ namespace PlansAndDreams.Core.domain
 
         //constructur 
 
-        public CategoriaSueno(string nombreCategoria,decimal porcentaje)
+        public CategoriaSueno(string nombreCategoria, decimal porcentaje)
         {
             this.NombreCategoria = nombreCategoria;
             this.Porcentaje = porcentaje;
@@ -47,10 +47,29 @@ namespace PlansAndDreams.Core.domain
             set { _Porcentaje = value; }
         }
 
-
-        public bool AgregarCategoria()
+        enum estadosGrabarCategoriaSueno
         {
-            return categoriaSuenoRepository.AgregarCategoria(this.NombreCategoria);
+            exitoso=1,
+            categoriaExistente=2,
+            fallido=0
+        }
+
+        public int AgregarCategoria()
+        {
+            if (ValidarCategoriaExiste())
+            {
+                return (int)estadosGrabarCategoriaSueno.categoriaExistente;
+            }
+            else
+            {
+                if (categoriaSuenoRepository.AgregarCategoria(this.NombreCategoria))
+                {
+                    return (int)estadosGrabarCategoriaSueno.exitoso;
+                }
+                else {
+                    return (int)estadosGrabarCategoriaSueno.fallido;
+                };
+            }
         }
 
         public bool ValidarCategoriaExiste()

@@ -18,12 +18,12 @@ namespace PlansAndDreams.Core.domain.Tests
             //Arrange 
             CategoriaSueno target = new CategoriaSueno();
             target.categoriaSuenoRepository = new CategoriaSuenoMockRepository();
-            var expected = true;
+            var expected = 1;
             target.NombreCategoria = "Viaje";
             target.Porcentaje = 10;
 
             //Action
-            bool actual = target.AgregarCategoria();
+            int actual = target.AgregarCategoria();
 
             //Assert
             Assert.AreEqual(expected, actual);

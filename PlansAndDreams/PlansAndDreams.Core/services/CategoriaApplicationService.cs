@@ -11,7 +11,7 @@ namespace PlansAndDreams.Core.services
     public class CategoriaApplicationService
     {
 
-        public bool grabarCategoria(String nombreCategoria)
+        public int grabarCategoria(String nombreCategoria)
         {
             CategoriaSueno categoria = new CategoriaSueno()
             {
@@ -19,6 +19,17 @@ namespace PlansAndDreams.Core.services
             };
             categoria.categoriaSuenoRepository = new CategoriaSuenoRepository();
             return  categoria.AgregarCategoria();
+        }
+
+        public bool ValidarCategoriaExiste(string nombreCategoria)
+        {
+            CategoriaSueno categoria = new CategoriaSueno()
+            {
+                NombreCategoria = nombreCategoria
+            };
+            categoria.categoriaSuenoRepository = new CategoriaSuenoRepository();
+            return categoria.ValidarCategoriaExiste();
+
         }
 
 
