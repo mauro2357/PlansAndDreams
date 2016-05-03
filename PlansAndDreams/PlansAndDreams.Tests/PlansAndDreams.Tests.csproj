@@ -82,12 +82,18 @@
       <DependentUpon>CrearCategoriaSueno.feature</DependentUpon>
     </Compile>
     <Compile Include="Acceptance\CrearCategoriasSueno\CrearCategoriaSuenosStep.cs" />
-    <Compile Include="Acceptance\VisualizarSuenosRegistrados\VisualizarSuenos.feature.cs">
+    <Compile Include="Acceptance\CrearSueno\CrearSueno1.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>VisualizarSuenos.feature</DependentUpon>
+      <DependentUpon>CrearSueno.feature</DependentUpon>
     </Compile>
-    <Compile Include="Acceptance\VisualizarSuenosRegistrados\VisualizarSuenosStep.cs" />
+    <Compile Include="Acceptance\CrearSueno\CrearSuenoStep.cs" />
+    <Compile Include="Acceptance\VisualizarSuenosRegistrados\VisualizarSuenosRegistrados.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VisualizarSuenosRegistrados.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Acceptance\VisualizarSuenosRegistrados\VisualizarSuenosRegistradosStep.cs" />
     <Compile Include="Acceptance\VisualizarSuenos\ListarSuenosAmigos.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -117,9 +123,13 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>CrearCategoriaSueno.feature.cs</LastGenOutput>
     </None>
-    <None Include="Acceptance\VisualizarSuenosRegistrados\VisualizarSuenos.feature">
+    <None Include="Acceptance\CrearSueno\CrearSueno.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>VisualizarSuenos.feature.cs</LastGenOutput>
+      <LastGenOutput>CrearSueno1.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Acceptance\VisualizarSuenosRegistrados\VisualizarSuenosRegistrados.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>VisualizarSuenosRegistrados.feature.cs</LastGenOutput>
     </None>
     <None Include="Acceptance\VisualizarSuenos\ListarSuenosAmigos.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
