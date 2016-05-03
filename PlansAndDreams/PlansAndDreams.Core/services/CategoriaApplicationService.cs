@@ -11,14 +11,14 @@ namespace PlansAndDreams.Core.services
     public class CategoriaApplicationService
     {
 
-        async public Task<bool> grabarCategoria(String nombreCategoria)
+        public bool grabarCategoria(String nombreCategoria)
         {
             CategoriaSueno categoria = new CategoriaSueno()
             {
                 NombreCategoria = nombreCategoria
             };
             categoria.categoriaSuenoRepository = new CategoriaSuenoRepository();
-            return await categoria.AgregarCategoria();
+            return  categoria.AgregarCategoria();
         }
 
 

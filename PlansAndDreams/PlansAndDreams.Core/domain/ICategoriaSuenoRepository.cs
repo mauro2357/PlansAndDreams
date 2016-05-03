@@ -8,6 +8,7 @@ namespace PlansAndDreams.Core.domain
 {
     public interface ICategoriaSuenoRepository
     {
-        Task<bool> AgregarCategoria(string nombreCategoria);
+        bool AgregarCategoria(string nombreCategoria);
+        bool ValidarCategoriaExiste(string nombreCategoria);
     }
 }

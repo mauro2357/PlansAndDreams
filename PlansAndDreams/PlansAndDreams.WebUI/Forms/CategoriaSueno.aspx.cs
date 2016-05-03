@@ -20,8 +20,8 @@ namespace PlansAndDreams.WebUI.Forms
 
             try
             {
-                //CategoriaApplicationService suenoAppService = new CategoriaApplicationService();
-                bool grabadoExito = true;//await suenoAppService.grabarCategoria(categoria.Value);
+                CategoriaApplicationService suenoAppService = new CategoriaApplicationService();
+                bool grabadoExito = suenoAppService.grabarCategoria(categoria.Value);
                 if (grabadoExito)
                 {
                     mensajeEnPantalla.Text = "Categoria grabada con exito.";
