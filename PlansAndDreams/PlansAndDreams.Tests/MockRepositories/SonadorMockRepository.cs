@@ -29,18 +29,19 @@ namespace PlansAndDreams.Tests.MockRepositories
         public List<Sueno> obtenerSuenosAmigos(Sonador sonador)
         {
             List<Sueno> suenos = new List<Sueno>();
-            sonador.Amigos.ForEach(x => {
+            sonador.Amigos.ForEach(x =>
+            {
                 suenos.AddRange(x.Suenos);
             });
             return suenos;
         }
 
-        public List<Sueno> ObtenerSuenosMayoresa( Sonador sonador)
-        { 
-            List<Sueno> suenos = new List<Sueno>();
-            
-             
-           return suenos;
+        public List<Sueno> ObtenerSuenosMayoresa(Sonador sonador)
+        {
+            var fechaIni = DateTime.Now.AddMonths(-3);
+            List<Sueno> lstSuenos = ObtenerSuenosMayoresa(sonador);
+            lstSuenos = lstSuenos.Where(x => x.fechaDeseada > fechaIni).ToList();
+            return lstSuenos;
         }
     }
 }

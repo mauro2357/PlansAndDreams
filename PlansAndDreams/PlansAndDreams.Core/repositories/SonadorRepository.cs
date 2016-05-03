@@ -40,9 +40,9 @@ namespace PlansAndDreams.Core.repositories
             throw new NotImplementedException();
         }
 
-        public List<Sueno> ObtenerSuenosMayoresa(int meses, Sonador sonador)
-        {
-            throw new NotImplementedException();
-        }
+        //public List<Sueno> ObtenerSuenosMayoresa(int meses, Sonador sonador)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

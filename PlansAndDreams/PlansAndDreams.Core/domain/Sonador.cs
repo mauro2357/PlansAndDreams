@@ -89,9 +89,9 @@ namespace PlansAndDreams.Core.domain
             return _iSonadorRepository.ObtenerSuenosFecha(fecha, sonador);
         }
 
-        public List<Sueno> ObtenerSuenosMayoresa(int meses, Sonador sonador)
+        public List<Sueno> ObtenerSuenosMayoresa(Sonador sonador)
         {
-            var fechaIni = DateTime.Now.AddMonths(-meses);
+            var fechaIni = DateTime.Now.AddMonths(-3);
             List<Sueno> lstSuenos = _iSonadorRepository.ObtenerSuenosMayoresa(sonador);
             lstSuenos = lstSuenos.Where(x => x.fechaDeseada > fechaIni).ToList();
             return lstSuenos;
@@ -102,5 +102,7 @@ namespace PlansAndDreams.Core.domain
             
             return _iSonadorRepository.obtenerSuenosAmigos(this);
         }
+
+
     }
 }

@@ -157,8 +157,7 @@ namespace PlansAndDreams.Tests
             Assert.IsTrue(resultado);
             //Assert.Inconclusive("Un método que no devuelve ningún valor no se puede comprobar.");
         }
-
-
+        
 
         /// <summary>
         ///Una prueba de listar sueños de todos los amigos
@@ -215,5 +214,46 @@ namespace PlansAndDreams.Tests
             Assert.IsNotNull(lstSuenos);
 
         }
+        [TestMethod()]
+        public void ListarSuenosSonadorMayoresa3Meses()
+        {
+
+            Sonador jose = new Sonador(new SonadorMockRepository());
+            jose.Nombre = "Jose";
+            jose.Apellido = "Galarga";
+            jose.Documento = "545636";
+            CategoriaSueno categoriaViaje = new CategoriaSueno();
+            categoriaViaje.IdCategoria = 12;
+            categoriaViaje.NombreCategoria = "Viajes";
+
+            CategoriaSueno categoriaPension = new CategoriaSueno();
+            categoriaPension.IdCategoria = 12;
+            categoriaPension.NombreCategoria = "Pension";
+
+            Sueno sueno = new Sueno("Viaje a Europa", new DateTime(2016, 12, 1));
+            sueno.Categoria = categoriaViaje;
+
+            Sueno sueno2 = new Sueno("Viaje a africa", new DateTime(2016, 11, 1));
+            sueno2.Categoria = categoriaViaje;
+
+            Sueno sueno3 = new Sueno("Pension 1", new DateTime(2016, 12, 1));
+            sueno3.Categoria = categoriaPension;
+
+            Sueno sueno4 = new Sueno("Pension 2", new DateTime(2016, 11, 1));
+            sueno4.Categoria = categoriaPension;
+            
+
+            jose.agregarSueno(sueno);
+            jose.agregarSueno(sueno2);
+            jose.agregarSueno(sueno3);
+            jose.agregarSueno(sueno4);
+
+            List<Sueno> lstSuenos = jose.ObtenerSuenosMayoresa(jose);
+
+            Assert.IsNotNull(lstSuenos);
+
+        }
+
+
     }
 }

@@ -11,11 +11,16 @@ namespace PlansAndDreams.WebUI.Forms
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //List<Sueno> lstSuenos = new List<Sueno>();
+            //gridSuenos.DataSource = lstSuenos;
+            //gridSuenos.DataBind();
+
             var lst = new List<string>();
-            lst.Add("aaaaaa");
-            lst.Add("bbbbbbbb");
+            lst.Add("Viajar a europa");
+            lst.Add("Viajar a africa");
             gridSuenos.DataSource = lst;
             gridSuenos.DataBind();
+
         }
     }
 }
