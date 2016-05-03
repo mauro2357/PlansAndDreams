@@ -11,7 +11,7 @@ namespace PlansAndDreams.Core.services
     public class SonadorApplicationServices
     {
         public List<Dto.Sueno> obtenerListaSuenosAmigos(Sonador sonador) {
-
+            return null;
         }
     }
 }
