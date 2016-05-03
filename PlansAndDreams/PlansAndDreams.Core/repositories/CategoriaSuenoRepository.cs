@@ -23,7 +23,7 @@ namespace PlansAndDreams.Core.repositories
                 };
 
                 var client = new HttpService();
-                var result =  client.PostAsync("categoria", categoria);
+                var result = client.PostAsync("categoria", categoria);
                 if (result.IsSuccessStatusCode)
                 {
                     //string response = await result.Content.ReadAsStringAsync();
@@ -49,7 +49,30 @@ namespace PlansAndDreams.Core.repositories
 
         public bool ValidarCategoriaExiste(string nombreCategoria)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var client = new HttpService();
+                var result = client.GetAsync<String>("categoria");
+                if (result.IsSuccessStatusCode)
+                {
+
+                    string response = client.ReadString(result);
+                    List<Categoria> serializedResponse = JsonConvert.DeserializeObject<List<Categoria>>(response);
+                    Console.WriteLine("Ya grabé en la base de datos y funcionó");
+                    return true;
+                }
+                else
+                {
+                    Console.WriteLine("Error guardando...");
+                    return false;
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                return false;
+            }
         }
     }
 }

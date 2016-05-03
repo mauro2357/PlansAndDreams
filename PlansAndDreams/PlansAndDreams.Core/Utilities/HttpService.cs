@@ -66,6 +66,21 @@ namespace PlansAndDreams.Core.Utilities
                 );
             return result;
         }
+
+        internal string ReadString(HttpResponseMessage result)
+        {
+            string res = string.Empty;
+
+            Task.WaitAny(
+                   Task.Run(async () =>
+                   {
+                       res = await result.Content.ReadAsStringAsync();
+
+                   })
+                   );
+            return res;
+        }
+
         public HttpResponseMessage DeleteAsync<TRequest>(string table, string Id)
         {
             HttpResponseMessage result = new HttpResponseMessage();

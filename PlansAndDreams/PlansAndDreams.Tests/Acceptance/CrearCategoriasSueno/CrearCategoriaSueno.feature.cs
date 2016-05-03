@@ -106,7 +106,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 16
  testRunner.When("Presiono grabar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 17
- testRunner.Then("Deberia aparecer el mensaje \"La categoria ya existe\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Deberia aparecer el mensaje \"La categoria ya existe.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

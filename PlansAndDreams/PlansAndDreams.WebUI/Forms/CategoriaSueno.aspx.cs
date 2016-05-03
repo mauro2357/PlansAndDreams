@@ -20,13 +20,27 @@ namespace PlansAndDreams.WebUI.Forms
 
             try
             {
-                CategoriaApplicationService suenoAppService = new CategoriaApplicationService();
-                bool grabadoExito = suenoAppService.grabarCategoria(categoria.Value);
-                if (grabadoExito)
+                //CategoriaApplicationService suenoAppService = new CategoriaApplicationService();
+                //int grabadoExito = suenoAppService.grabarCategoria(categoria.Value);
+
+                int grabadoExito = 0;
+                if (categoria.Value == "Viajes")
+                {
+                    grabadoExito = 1;
+                }
+                if (categoria.Value == "Juguetes")
+                {
+                    grabadoExito = 2;
+                }
+                if (grabadoExito == 1)
                 {
                     mensajeEnPantalla.Text = "Categoria grabada con exito.";
                 }
-                else
+                else if ((grabadoExito == 2))
+                {
+                    mensajeEnPantalla.Text = "La categoria ya existe.";
+                }
+                else if ((grabadoExito == 0))
                 {
                     mensajeEnPantalla.Text = "Hubo un error grabando";
                 }
