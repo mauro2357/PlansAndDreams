@@ -25,5 +25,15 @@ namespace PlansAndDreams.Core.repositories
             List<Sueno> suenos = sonador.Suenos.Where(x => x.fechaDeseada == fecha).ToList();
             return suenos;
         }
+
+        public List<Sueno> ObtenerSuenosMayoresa(Sonador sonador)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Sueno> ObtenerSuenosMayoresa(int meses, Sonador sonador)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
