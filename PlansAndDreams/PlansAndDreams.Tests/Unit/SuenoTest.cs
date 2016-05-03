@@ -71,8 +71,11 @@ namespace PlansAndDreams.Tests
         [TestMethod()]
         public void crearSuenoTest()
         {
-            Sueno sueno = new Sueno("bicileta", new DateTime(2016, 12, 25, 0, 0, 0));
+            
 
+            SuenosMockRepository suenosMockRepository = new SuenosMockRepository();
+            Sueno sueno = new Sueno("bicileta", new DateTime(2016, 12, 25, 0, 0, 0));
+            sueno.suenoRepository = suenosMockRepository;            
             Assert.IsTrue(sueno.guardarSueno());
              
         }
