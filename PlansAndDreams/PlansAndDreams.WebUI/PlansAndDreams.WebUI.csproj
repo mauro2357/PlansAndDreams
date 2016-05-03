@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="Forms\CrearSueno.aspx" />
     <Content Include="Forms\VisualizarSuenosAmigos.aspx" />
+    <Content Include="Forms\VisualizarSuenosSonador.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -134,6 +135,13 @@
     </Compile>
     <Compile Include="Forms\VisualizarSuenosAmigos.aspx.designer.cs">
       <DependentUpon>VisualizarSuenosAmigos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VisualizarSuenosSonador.aspx.cs">
+      <DependentUpon>VisualizarSuenosSonador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\VisualizarSuenosSonador.aspx.designer.cs">
+      <DependentUpon>VisualizarSuenosSonador.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
