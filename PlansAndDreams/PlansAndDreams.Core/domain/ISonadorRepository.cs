@@ -11,5 +11,6 @@ namespace PlansAndDreams.Core.domain
         List<Sueno> ObtenerSuenosFecha(DateTime fecha, Sonador sonador);
         List<Sueno> obtenerSuenosAmigo(Sonador sonador);
         List<Sueno> obtenerSuenosAmigos(Sonador sonador);
+        List<Sueno> ObtenerSuenosMayoresa(Sonador sonador);
     }
 }

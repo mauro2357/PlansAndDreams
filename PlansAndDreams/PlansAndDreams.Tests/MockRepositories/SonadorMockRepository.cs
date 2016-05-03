@@ -34,5 +34,13 @@ namespace PlansAndDreams.Tests.MockRepositories
             });
             return suenos;
         }
+
+        public List<Sueno> ObtenerSuenosMayoresa( Sonador sonador)
+        { 
+            List<Sueno> suenos = new List<Sueno>();
+            
+             
+           return suenos;
+        }
     }
 }

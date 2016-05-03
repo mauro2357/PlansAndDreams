@@ -22,13 +22,28 @@ namespace PlansAndDreams.Core.repositories
 
         public List<Sueno> obtenerSuenosAmigos(Sonador sonador)
         {
-            throw new NotImplementedException();
+            List<Sueno> suenos = new List<Sueno>();
+            sonador.Amigos.ForEach(x => {
+                suenos.AddRange(x.Suenos);
+            });
+            return suenos;
         }
 
         public List<Sueno> ObtenerSuenosFecha(DateTime fecha, Sonador sonador)
         {
             List<Sueno> suenos = sonador.Suenos.Where(x => x.fechaDeseada == fecha).ToList();
             return suenos;
+        }
+
+        public List<Sueno> ObtenerSuenosMayoresa(Sonador sonador)
+        {
+
+            return null;
+        }
+
+        public List<Sueno> ObtenerSuenosMayoresa(int meses, Sonador sonador)
+        {
+            throw new NotImplementedException();
         }
     }
 }
