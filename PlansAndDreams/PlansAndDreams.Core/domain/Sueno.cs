@@ -10,6 +10,7 @@ namespace PlansAndDreams.Core.domain
         public ISuenoRepository suenoRepository;
 
         public string nombre { get; set; }
+        public string IdSueno { get; set; }
 
         public DateTime fechaDeseada { get; set; }
 

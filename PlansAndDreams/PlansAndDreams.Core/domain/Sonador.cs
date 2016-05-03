@@ -88,5 +88,11 @@ namespace PlansAndDreams.Core.domain
         {
             return _iSonadorRepository.ObtenerSuenosFecha(fecha, sonador);
         }
+
+        public List<Sueno> obtenerSuenosAmigos()
+        {
+            
+            return _iSonadorRepository.obtenerSuenosAmigos(this);
+        }
     }
 }
