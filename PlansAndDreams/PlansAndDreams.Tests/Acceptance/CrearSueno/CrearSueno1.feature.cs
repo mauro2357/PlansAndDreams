@@ -85,7 +85,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 10
  testRunner.When("Cuando presione el boton grabar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 11
- testRunner.Then("El sistema debe decir que el sueño fue grabado exitosamente.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Deberia aparecer el mensaje \"Sueno grabada con exito.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
