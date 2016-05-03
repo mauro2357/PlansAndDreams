@@ -25,5 +25,14 @@ namespace PlansAndDreams.Tests.MockRepositories
             List<Sueno> suenos = sonador.Suenos.Where(x => x.fechaDeseada == fecha).ToList();
             return suenos;
         }
+
+        public List<Sueno> obtenerSuenosAmigos(Sonador sonador)
+        {
+            List<Sueno> suenos = new List<Sueno>();
+            sonador.Amigos.ForEach(x => {
+                suenos.AddRange(x.Suenos);
+            });
+            return suenos;
+        }
     }
 }

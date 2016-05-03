@@ -20,6 +20,11 @@ namespace PlansAndDreams.Core.repositories
             return suenos;
         }
 
+        public List<Sueno> obtenerSuenosAmigos(Sonador sonador)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Sueno> ObtenerSuenosFecha(DateTime fecha, Sonador sonador)
         {
             List<Sueno> suenos = sonador.Suenos.Where(x => x.fechaDeseada == fecha).ToList();

@@ -71,6 +71,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="repositories\CategoriaSuenoRepository.cs" />
     <Compile Include="repositories\DtoEntities\Categoria.cs" />
+    <Compile Include="repositories\DtoEntities\Sueno.cs" />
     <Compile Include="repositories\SonadorRepository.cs" />
     <Compile Include="repositories\SuenosRepository.cs" />
     <Compile Include="services\CategoriaApplicationService.cs" />

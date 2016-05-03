@@ -11,7 +11,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
+namespace PlansAndDreams.Tests.Acceptance.CrearSueno
 {
     using TechTalk.SpecFlow;
     
@@ -19,20 +19,19 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "1.9.0.77")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class VisualizarSuenosFeature
+    public partial class CrearSuenoFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "VisualizarSuenos.feature"
+#line 1 "CrearSueno.feature"
 #line hidden
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.ClassInitializeAttribute()]
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "VisualizarSuenos", "Para poder saber en que puedo invertir mis ahorros\nComo un soñador\nQuiero conocer" +
-                    " cuanto dinero necesito para hacer mi sueño realidad.", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CrearSueno", "Como soñador del sueño\r\nQuiero dar a conocer mis sueños\r\nPara hacerlo realidad.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -47,9 +46,9 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
         public virtual void TestInitialize()
         {
             if (((TechTalk.SpecFlow.FeatureContext.Current != null) 
-                        && (TechTalk.SpecFlow.FeatureContext.Current.FeatureInfo.Title != "VisualizarSuenos")))
+                        && (TechTalk.SpecFlow.FeatureContext.Current.FeatureInfo.Title != "CrearSueno")))
             {
-                PlansAndDreams.Tests.Acceptance.VisualizarSuenos.VisualizarSuenosFeature.FeatureSetup(null);
+                PlansAndDreams.Tests.Acceptance.CrearSueno.CrearSuenoFeature.FeatureSetup(null);
             }
         }
         
@@ -70,21 +69,23 @@ namespace PlansAndDreams.Tests.Acceptance.VisualizarSuenos
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Listar sueños de mis amigos")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "VisualizarSuenos")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Crear sueno")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "CrearSueno")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        public virtual void ListarSuenosDeMisAmigos()
+        public virtual void CrearSueno()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Listar sueños de mis amigos", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Crear sueno", new string[] {
                         "mytag"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("Acceso a la pantalla de los sueños de mis amigos.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("El sonador ingresa en una pantalla sueño: \"comprar una bicicleta\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.When("Carga la pantalla.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("fecha: \"24-dic-2016\" categoria: \"juguete\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 10
- testRunner.Then("Deberia aparecer la lista de sueños de todos mis amigos.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.When("Cuando presione el boton grabar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
+ testRunner.Then("Deberia aparecer el mensaje \"Sueno grabada con exito.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
