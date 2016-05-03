@@ -88,13 +88,12 @@
       <DependentUpon>VisualizarSuenos.feature</DependentUpon>
     </Compile>
     <Compile Include="Acceptance\VisualizarSuenosRegistrados\VisualizarSuenosStep.cs" />
-    <Compile Include="Acceptance\VisualizarSuenos\ListarSuenos.cs" />
-    <Compile Include="Acceptance\VisualizarSuenos\ListarSuenos.feature.cs">
-      <DependentUpon>ListarSuenos.feature</DependentUpon>
-      <SubType>Code</SubType>
-      <DesignTime>True</DesignTime>
+    <Compile Include="Acceptance\VisualizarSuenos\ListarSuenosAmigos.feature.cs">
       <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListarSuenosAmigos.feature</DependentUpon>
     </Compile>
+    <Compile Include="Acceptance\VisualizarSuenos\ListarSuenosAmigosStep.cs" />
     <Compile Include="Integration\SuenoApplicationServiceIntegrationTest.cs" />
     <Compile Include="MockRepositories\CategoriaSuenoMockRepository.cs" />
     <Compile Include="MockRepositories\SonadorMockRepository.cs" />
@@ -122,9 +121,9 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>VisualizarSuenos.feature.cs</LastGenOutput>
     </None>
-    <None Include="Acceptance\VisualizarSuenos\ListarSuenos.feature">
+    <None Include="Acceptance\VisualizarSuenos\ListarSuenosAmigos.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>ListarSuenos.feature.cs</LastGenOutput>
+      <LastGenOutput>ListarSuenosAmigos.feature.cs</LastGenOutput>
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
