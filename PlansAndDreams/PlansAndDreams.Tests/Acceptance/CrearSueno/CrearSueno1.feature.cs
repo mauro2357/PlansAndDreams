@@ -31,7 +31,7 @@ namespace PlansAndDreams.Tests.Acceptance.CrearSueno
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CrearSueno", "Como soñador del sueño\nQuiero dar a conocer mis sueños\nPara hacerlo realidad.", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CrearSueno", "Como soñador del sueño\r\nQuiero dar a conocer mis sueños\r\nPara hacerlo realidad.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
